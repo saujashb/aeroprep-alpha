@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@theme {
+  --color-panel: #0b1120;
+  --color-panel-raised: #111a2e;
+  --color-panel-border: #1e2a44;
+  --color-hud: #38bdf8;
+  --color-hud-dim: #0c4a6e;
+  --color-normal: #34d399;
+  --color-advisory: #fbbf24;
+  --color-warning: #f87171;
+  --color-ink: #e2e8f0;
+  --color-ink-muted: #94a3b8;
+  --font-display: "Avenir Next", "Segoe UI", system-ui, sans-serif;
+  --font-mono-panel: "SF Mono", "Menlo", "Consolas", monospace;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  @apply bg-panel text-ink antialiased;
+  font-family: var(--font-display);
+}
+
+::selection {
+  @apply bg-hud/30;
+}
+
+/* Thin dark scrollbars to match the cockpit theme */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #1e2a44 transparent;
+}
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+*::-webkit-scrollbar-thumb {
+  background: #1e2a44;
+  border-radius: 4px;
+}
+
+@keyframes needle-settle {
+  0% {
+    transform: rotate(-8deg);
+  }
+  60% {
+    transform: rotate(3deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes radar-pulse {
+  0% {
+    opacity: 0.9;
+    r: 4;
+  }
+  100% {
+    opacity: 0;
+    r: 22;
+  }
+}
