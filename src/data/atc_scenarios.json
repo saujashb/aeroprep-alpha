@@ -1,0 +1,110 @@
+{
+  "aircraft": [
+    {
+      "id": "n738gb",
+      "type": "Cessna 172",
+      "tailNumber": "N738GB",
+      "spokenCallsign": "Cessna seven tree eight golf bravo",
+      "shortCallsign": "eight golf bravo"
+    },
+    {
+      "id": "n425pa",
+      "type": "Piper Archer",
+      "tailNumber": "N425PA",
+      "spokenCallsign": "Piper fower too fife papa alpha",
+      "shortCallsign": "papa alpha"
+    }
+  ],
+  "airports": [
+    {
+      "id": "kpdx",
+      "icao": "KPDX",
+      "name": "Portland International",
+      "towered": true,
+      "facilityName": "Portland",
+      "groundFreq": "121.7",
+      "towerFreq": "118.7",
+      "runways": ["10L", "10R", "28L", "28R"]
+    },
+    {
+      "id": "kjfk",
+      "icao": "KJFK",
+      "name": "John F. Kennedy International",
+      "towered": true,
+      "facilityName": "Kennedy",
+      "groundFreq": "121.65",
+      "towerFreq": "119.1",
+      "runways": ["04L", "04R", "13L", "13R", "22L", "22R", "31L", "31R"]
+    },
+    {
+      "id": "kaur",
+      "icao": "KAUR",
+      "name": "Aurora State",
+      "towered": false,
+      "facilityName": "Aurora traffic",
+      "ctafFreq": "122.8",
+      "runways": ["17", "35"]
+    }
+  ],
+  "positions": [
+    { "id": "ramp", "label": "Main ramp", "phrase": "at the main ramp", "context": "ground" },
+    { "id": "runup", "label": "Run-up area", "phrase": "at the run-up area for runway {runway}", "context": "ground" },
+    { "id": "holding", "label": "Holding short", "phrase": "holding short of runway {runway}", "context": "ground" },
+    { "id": "downwind", "label": "Downwind", "phrase": "on the downwind for runway {runway}", "context": "air" },
+    { "id": "final", "label": "Final", "phrase": "on final for runway {runway}", "context": "air" },
+    { "id": "five-mile", "label": "Five-mile final", "phrase": "five miles south, inbound for landing runway {runway}", "context": "air" }
+  ],
+  "intentions": [
+    {
+      "id": "taxi-vfr",
+      "label": "Request taxi for VFR departure",
+      "facility": "ground",
+      "positionContext": "ground",
+      "pilotTemplate": "{facility} Ground, {callsign}, {position}, ready to taxi VFR northbound departure with information {atis}.",
+      "atcTemplate": "{shortCallsign}, {facility} Ground, taxi to runway {runway} via Alpha, Bravo. Hold short of runway {runway}.",
+      "readbackTemplate": "Taxi to runway {runway} via Alpha, Bravo, hold short of runway {runway}, {shortCallsign}.",
+      "explanation": "Ground control owns movement on the airport surface. State who you are, where you are, and what you want. Include the current ATIS letter so the controller knows you have the weather."
+    },
+    {
+      "id": "ready-takeoff",
+      "label": "Ready for takeoff",
+      "facility": "tower",
+      "positionContext": "ground",
+      "pilotTemplate": "{facility} Tower, {callsign}, {position}, ready for departure runway {runway}.",
+      "atcTemplate": "{shortCallsign}, runway {runway}, cleared for takeoff.",
+      "readbackTemplate": "Cleared for takeoff runway {runway}, {shortCallsign}.",
+      "explanation": "Tower controls the runway. \"Ready for departure\" avoids the word \"takeoff\" until you are cleared. Read back the runway and clearance verbatim."
+    },
+    {
+      "id": "line-up-wait",
+      "label": "Read back Line Up and Wait",
+      "facility": "tower",
+      "positionContext": "ground",
+      "pilotTemplate": "{facility} Tower, {callsign}, {position}.",
+      "atcTemplate": "{shortCallsign}, runway {runway}, line up and wait.",
+      "readbackTemplate": "Line up and wait runway {runway}, {shortCallsign}.",
+      "explanation": "Line Up and Wait means taxi onto the runway and hold on the centerline — it is NOT a takeoff clearance. Never add \"takeoff\" to your readback."
+    },
+    {
+      "id": "ctaf-inbound",
+      "label": "CTAF inbound for landing",
+      "facility": "ctaf",
+      "positionContext": "air",
+      "pilotTemplate": "{facility}, {callsign}, {position}, {airport}.",
+      "atcTemplate": "(No ATC response — other aircraft in the pattern may respond with position reports.)",
+      "readbackTemplate": "",
+      "explanation": "At non-towered airports you broadcast on the CTAF (often the same as UNICOM). State the airport name, your position, and intentions so other pilots can see and avoid you."
+    },
+    {
+      "id": "option-clearance",
+      "label": "Cleared for the option",
+      "facility": "tower",
+      "positionContext": "air",
+      "pilotTemplate": "{facility} Tower, {callsign}, {position}, full stop.",
+      "atcTemplate": "{shortCallsign}, runway {runway}, cleared for the option.",
+      "readbackTemplate": "Cleared for the option runway {runway}, {shortCallsign}.",
+      "explanation": "Cleared for the Option lets you choose touch-and-go, stop-and-go, low approach, or full stop on that approach — common in training."
+    }
+  ],
+  "atisLetters": ["Alpha", "Bravo", "Charlie", "Delta", "Echo", "Foxtrot", "Golf", "Hotel"]
+}
