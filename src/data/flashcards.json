@@ -1,1 +1,614 @@
-[{"id":"fc-phonetic-alphabet-icao","category":"atc-communications","front":"ICAO","back":"International Civil Aviation Organization — the UN agency that standardizes aviation worldwide, including the phonetic alphabet."}]
+[
+  {
+    "id": "fc-phonetic-alphabet-icao",
+    "category": "atc-communications",
+    "front": "ICAO",
+    "back": "International Civil Aviation Organization — the UN agency that standardizes aviation worldwide, including the phonetic alphabet."
+  },
+  {
+    "id": "fc-phonetic-alphabet-callsign",
+    "category": "atc-communications",
+    "front": "Callsign",
+    "back": "The spoken identity of an aircraft on the radio, usually its registration number (N-number in the U.S.)."
+  },
+  {
+    "id": "fc-phonetic-alphabet-summary",
+    "category": "atc-communications",
+    "front": "Phonetic Alphabet & Numbers",
+    "back": "Pilots and controllers spell letters with standard words (Alpha, Bravo, Charlie) and pronounce certain numbers differently (Tree, Fower, Fife, Niner) so nothing is misheard over a crackly radio."
+  },
+  {
+    "id": "fc-radio-basics-ptt",
+    "category": "atc-communications",
+    "front": "PTT",
+    "back": "Push-To-Talk — the trigger-style button on the yoke or handmic that keys the transmitter."
+  },
+  {
+    "id": "fc-radio-basics-simplex",
+    "category": "atc-communications",
+    "front": "Simplex",
+    "back": "Radio communication where transmit and receive share one channel, so only one station can talk at a time."
+  },
+  {
+    "id": "fc-radio-basics-summary",
+    "category": "atc-communications",
+    "front": "How Aviation Radios Work",
+    "back": "Aviation voice radio is simplex: one shared frequency per facility, push-to-talk, and only one person can transmit at a time. Listening discipline matters as much as speaking."
+  },
+  {
+    "id": "fc-standard-phraseology-wilco",
+    "category": "atc-communications",
+    "front": "Wilco",
+    "back": "\"Will comply\" — I received your instruction and will carry it out. Stronger than Roger."
+  },
+  {
+    "id": "fc-standard-phraseology-line-up-and-wait",
+    "category": "atc-communications",
+    "front": "Line Up and Wait",
+    "back": "Enter the runway and align on the centerline, but do NOT begin the takeoff roll yet."
+  },
+  {
+    "id": "fc-standard-phraseology-summary",
+    "category": "atc-communications",
+    "front": "Standard Phraseology",
+    "back": "Aviation uses a fixed vocabulary — Roger, Wilco, Affirm, Negative, Line Up and Wait, Cleared for the Option — where every word has one exact meaning, eliminating ambiguity."
+  },
+  {
+    "id": "fc-radio-call-structure-atis",
+    "category": "atc-communications",
+    "front": "ATIS",
+    "back": "Automatic Terminal Information Service — a recorded loop of weather and airport info, updated hourly, each version lettered phonetically (Information Alpha, Bravo...)."
+  },
+  {
+    "id": "fc-radio-call-structure-ground-control",
+    "category": "atc-communications",
+    "front": "Ground control",
+    "back": "The tower-cab controller who owns taxiways and ramp movement, typically on a frequency like 121.9."
+  },
+  {
+    "id": "fc-radio-call-structure-summary",
+    "category": "atc-communications",
+    "front": "The Four W's of a Radio Call",
+    "back": "Every initial radio call follows one template: WHO you are calling, WHO you are, WHERE you are, and WHAT you want. Master this skeleton and no call will ever feel improvised."
+  },
+  {
+    "id": "fc-squawk-codes-transponder",
+    "category": "atc-communications",
+    "front": "Transponder",
+    "back": "The radio device that answers radar interrogations with your assigned code and altitude."
+  },
+  {
+    "id": "fc-squawk-codes-mode-c",
+    "category": "atc-communications",
+    "front": "Mode C",
+    "back": "Transponder capability that adds your pressure altitude to each reply — required in most busy airspace."
+  },
+  {
+    "id": "fc-squawk-codes-summary",
+    "category": "atc-communications",
+    "front": "Transponders & Squawk Codes",
+    "back": "Your transponder broadcasts a four-digit code that paints you on ATC radar. 1200 means VFR; 7500, 7600, and 7700 are the emergency codes for hijack, radio failure, and general emergency."
+  },
+  {
+    "id": "fc-atis-basics-awos/asos",
+    "category": "atc-communications",
+    "front": "AWOS/ASOS",
+    "back": "Automated Weather Observing/Surveillance System — computer-voiced weather at airports without a staffed ATIS."
+  },
+  {
+    "id": "fc-atis-basics-altimeter-setting",
+    "category": "atc-communications",
+    "front": "Altimeter setting",
+    "back": "The local barometric pressure value (e.g. 30.02) you dial into the altimeter so it reads correct altitude."
+  },
+  {
+    "id": "fc-atis-basics-summary",
+    "category": "atc-communications",
+    "front": "ATIS: The Airport's Recorded Briefing",
+    "back": "ATIS is a continuously looping recording of an airport's current weather, active runways, and notices. Each new version gets the next phonetic letter, and you must tell ATC which one you heard."
+  },
+  {
+    "id": "fc-towered-vs-nontowered-ctaf",
+    "category": "atc-communications",
+    "front": "CTAF",
+    "back": "Common Traffic Advisory Frequency — the shared frequency where pilots at a non-towered airport self-announce positions and intentions."
+  },
+  {
+    "id": "fc-towered-vs-nontowered-unicom",
+    "category": "atc-communications",
+    "front": "UNICOM",
+    "back": "A private advisory radio station at an airport (often the fuel desk). Provides information, never clearances."
+  },
+  {
+    "id": "fc-towered-vs-nontowered-summary",
+    "category": "atc-communications",
+    "front": "Towered vs. Non-Towered Airports",
+    "back": "At towered airports, controllers issue instructions and clearances. At the vast majority of U.S. airports — non-towered — pilots self-announce on a common frequency (CTAF) and sequence themselves by convention."
+  },
+  {
+    "id": "fc-aircraft-anatomy-fuselage",
+    "category": "aircraft-systems",
+    "front": "Fuselage",
+    "back": "The airplane's central body structure, housing cockpit and cabin."
+  },
+  {
+    "id": "fc-aircraft-anatomy-empennage",
+    "category": "aircraft-systems",
+    "front": "Empennage",
+    "back": "The complete tail assembly: vertical stabilizer, rudder, horizontal stabilizer, and elevator."
+  },
+  {
+    "id": "fc-aircraft-anatomy-summary",
+    "category": "aircraft-systems",
+    "front": "Parts of an Airplane",
+    "back": "Every airplane shares the same skeleton: fuselage (body), wings, empennage (tail group), landing gear, and powerplant. Knowing the names unlocks every later systems lesson."
+  },
+  {
+    "id": "fc-high-vs-low-wing-ground-effect",
+    "category": "aircraft-systems",
+    "front": "Ground effect",
+    "back": "Reduced drag and increased lift when flying within about one wingspan of the surface — causes 'floating' on landing."
+  },
+  {
+    "id": "fc-high-vs-low-wing-dihedral",
+    "category": "aircraft-systems",
+    "front": "Dihedral",
+    "back": "The upward angle of wings from root to tip, which helps an airplane roll back toward level after a disturbance."
+  },
+  {
+    "id": "fc-high-vs-low-wing-summary",
+    "category": "aircraft-systems",
+    "front": "High-Wing vs. Low-Wing",
+    "back": "Cessnas carry the wing above the cabin; Pipers carry it below. Each layout trades visibility, fuel-system simplicity, ground effect, and stability differently — neither is 'better'."
+  },
+  {
+    "id": "fc-four-forces-angle-of-attack",
+    "category": "aircraft-systems",
+    "front": "Angle of attack",
+    "back": "The angle between the wing's chord line and the oncoming (relative) wind. The single most important concept in flying."
+  },
+  {
+    "id": "fc-four-forces-stall",
+    "category": "aircraft-systems",
+    "front": "Stall",
+    "back": "Airflow separation from the wing when the critical angle of attack is exceeded — a loss of lift, not an engine problem."
+  },
+  {
+    "id": "fc-four-forces-summary",
+    "category": "aircraft-systems",
+    "front": "The Four Forces of Flight",
+    "back": "Lift opposes weight; thrust opposes drag. In steady, unaccelerated flight the pairs balance exactly — and everything an airplane does is a deliberate re-balancing of these four forces."
+  },
+  {
+    "id": "fc-flight-controls-adverse-yaw",
+    "category": "aircraft-systems",
+    "front": "Adverse yaw",
+    "back": "The nose swinging opposite your roll input, caused by extra drag on the wing with the lowered aileron."
+  },
+  {
+    "id": "fc-flight-controls-coordinated-flight",
+    "category": "aircraft-systems",
+    "front": "Coordinated flight",
+    "back": "Flight with no sideways slip or skid — the slip/skid ball centered, passengers' coffee level."
+  },
+  {
+    "id": "fc-flight-controls-summary",
+    "category": "aircraft-systems",
+    "front": "Primary Flight Controls",
+    "back": "Ailerons roll the airplane around its longitudinal axis, the elevator pitches it around the lateral axis, and the rudder yaws it around the vertical axis. All three change lift on a surface to swing the airplane around its center of gravity."
+  },
+  {
+    "id": "fc-flaps-and-trim-camber",
+    "category": "aircraft-systems",
+    "front": "Camber",
+    "back": "The curvature of a wing's surfaces. More camber = more lift (and drag) at a given speed."
+  },
+  {
+    "id": "fc-flaps-and-trim-fowler-flap",
+    "category": "aircraft-systems",
+    "front": "Fowler flap",
+    "back": "A flap that slides rearward while deflecting down, increasing wing area as well as camber."
+  },
+  {
+    "id": "fc-flaps-and-trim-summary",
+    "category": "aircraft-systems",
+    "front": "Flaps & Trim",
+    "back": "Flaps reshape the wing for slow flight, letting you land slower and descend steeper. Trim removes steady control pressure so the airplane holds an attitude hands-off."
+  },
+  {
+    "id": "fc-six-pack-inclinometer",
+    "category": "aircraft-systems",
+    "front": "Inclinometer",
+    "back": "The ball-in-a-tube at the bottom of the turn coordinator showing slip (ball inside the turn) or skid (ball outside)."
+  },
+  {
+    "id": "fc-six-pack-partial-panel",
+    "category": "aircraft-systems",
+    "front": "Partial panel",
+    "back": "Flying with some instruments failed or covered — a core training exercise for vacuum-pump failures."
+  },
+  {
+    "id": "fc-six-pack-summary",
+    "category": "aircraft-systems",
+    "front": "The Traditional Six-Pack",
+    "back": "Six round instruments in two rows of three tell you everything about the airplane's state: airspeed, attitude, altitude across the top; turn coordination, heading, and vertical speed across the bottom."
+  },
+  {
+    "id": "fc-pitot-static-system-ram-pressure",
+    "category": "aircraft-systems",
+    "front": "Ram pressure",
+    "back": "The extra pressure produced by air being decelerated in the pitot tube's opening as the aircraft moves."
+  },
+  {
+    "id": "fc-pitot-static-system-kollsman-window",
+    "category": "aircraft-systems",
+    "front": "Kollsman window",
+    "back": "The small dial on the altimeter where the local barometric setting is entered."
+  },
+  {
+    "id": "fc-pitot-static-system-summary",
+    "category": "aircraft-systems",
+    "front": "The Pitot-Static System",
+    "back": "A forward-facing pitot tube captures ram air pressure and small static ports sense undisturbed ambient pressure. From just these two pressures, the airplane derives airspeed, altitude, and vertical speed."
+  },
+  {
+    "id": "fc-gyro-instruments-rigidity-in-space",
+    "category": "aircraft-systems",
+    "front": "Rigidity in space",
+    "back": "A spinning gyroscope's tendency to keep its axis pointed the same direction regardless of how its mount moves."
+  },
+  {
+    "id": "fc-gyro-instruments-precession",
+    "category": "aircraft-systems",
+    "front": "Precession",
+    "back": "A gyro's response to a force occurring 90° later in the direction of spin — source of instrument drift errors."
+  },
+  {
+    "id": "fc-gyro-instruments-summary",
+    "category": "aircraft-systems",
+    "front": "Gyroscopic Instruments",
+    "back": "The attitude indicator, heading indicator, and turn coordinator all exploit a spinning gyroscope's rigidity in space. In most trainers, two run on engine-driven vacuum and one on electricity."
+  },
+  {
+    "id": "fc-glass-cockpit-pfd",
+    "category": "aircraft-systems",
+    "front": "PFD",
+    "back": "Primary Flight Display — the screen consolidating attitude, airspeed, altitude, heading, and vertical speed."
+  },
+  {
+    "id": "fc-glass-cockpit-mfd",
+    "category": "aircraft-systems",
+    "front": "MFD",
+    "back": "Multi-Function Display — the screen for moving map, engine instruments, weather, traffic, and checklists."
+  },
+  {
+    "id": "fc-glass-cockpit-summary",
+    "category": "aircraft-systems",
+    "front": "Glass Cockpits: PFD & MFD",
+    "back": "Glass cockpits like the Garmin G1000 replace the six-pack with two screens: a Primary Flight Display consolidating all flight instruments, and a Multi-Function Display for moving map, engine data, and traffic."
+  },
+  {
+    "id": "fc-airspace-overview-msl",
+    "category": "airspace-weather",
+    "front": "MSL",
+    "back": "Mean Sea Level — altitude measured from average sea level; what the altimeter reads."
+  },
+  {
+    "id": "fc-airspace-overview-vfr",
+    "category": "airspace-weather",
+    "front": "VFR",
+    "back": "Visual Flight Rules — navigating by outside visual reference, requiring minimum visibility and cloud clearance."
+  },
+  {
+    "id": "fc-airspace-overview-summary",
+    "category": "airspace-weather",
+    "front": "The Airspace System at a Glance",
+    "back": "U.S. airspace comes in six classes, A through G (there is no F). Think of it as an upside-down wedding cake: the busier the airport, the bigger and more demanding the protected airspace around it."
+  },
+  {
+    "id": "fc-class-b-airspace-mode-c-veil",
+    "category": "airspace-weather",
+    "front": "Mode C veil",
+    "back": "The 30-NM ring around a Class B primary airport where altitude-reporting transponders and ADS-B Out are mandatory."
+  },
+  {
+    "id": "fc-class-b-airspace-shelf",
+    "category": "airspace-weather",
+    "front": "Shelf",
+    "back": "One stacked ring of Class B or C airspace with a published floor and ceiling, like a layer of the upside-down cake."
+  },
+  {
+    "id": "fc-class-b-airspace-summary",
+    "category": "airspace-weather",
+    "front": "Class B: The Big-City Fortress",
+    "back": "Class B surrounds the nation's busiest hubs. You need an explicit clearance — the words 'cleared into the Class Bravo' — a Mode C transponder, and at least a private (or endorsed student) certificate."
+  },
+  {
+    "id": "fc-class-c-d-airspace-approach-control",
+    "category": "airspace-weather",
+    "front": "Approach control",
+    "back": "The radar facility sequencing arrivals and departures around busier airports — the voice between center and tower."
+  },
+  {
+    "id": "fc-class-c-d-airspace-traffic-advisory",
+    "category": "airspace-weather",
+    "front": "Traffic advisory",
+    "back": "ATC pointing out nearby aircraft: 'traffic, two o'clock, three miles, southbound' — you look and report in sight."
+  },
+  {
+    "id": "fc-class-c-d-airspace-summary",
+    "category": "airspace-weather",
+    "front": "Class C & D: Everyday Towered Airspace",
+    "back": "Class C wraps busy mid-size airports (two-way radio + Mode C required); Class D wraps ordinary towered fields (two-way radio required). For both, entry needs your callsign acknowledged — not a formal clearance."
+  },
+  {
+    "id": "fc-class-e-g-airspace-vignette",
+    "category": "airspace-weather",
+    "front": "Vignette",
+    "back": "The fuzzy shaded band on sectionals; the magenta version marks Class E beginning at 700 ft AGL."
+  },
+  {
+    "id": "fc-class-e-g-airspace-victor-airway",
+    "category": "airspace-weather",
+    "front": "Victor airway",
+    "back": "A charted Class E highway in the sky running between VOR stations, labeled V-something."
+  },
+  {
+    "id": "fc-class-e-g-airspace-summary",
+    "category": "airspace-weather",
+    "front": "Class E & G: Where Training Happens",
+    "back": "Class G is uncontrolled airspace hugging the ground; Class E is controlled airspace covering nearly everything else. No clearance is needed for VFR in either — the difference is weather minimums and who protects IFR traffic."
+  },
+  {
+    "id": "fc-weather-for-pilots-ceiling",
+    "category": "airspace-weather",
+    "front": "Ceiling",
+    "back": "The height of the lowest broken or overcast cloud layer — the effective lid for VFR flight."
+  },
+  {
+    "id": "fc-weather-for-pilots-dew-point",
+    "category": "airspace-weather",
+    "front": "Dew point",
+    "back": "The temperature at which air becomes saturated; a small temperature/dew-point spread warns of fog or low cloud."
+  },
+  {
+    "id": "fc-weather-for-pilots-summary",
+    "category": "airspace-weather",
+    "front": "Weather Essentials for Pilots",
+    "back": "Wind, visibility, clouds, and pressure are the four weather elements every VFR pilot reads before flying. Weather is the single biggest go/no-go factor in general aviation."
+  },
+  {
+    "id": "fc-metar-basics-metar",
+    "category": "airspace-weather",
+    "front": "METAR",
+    "back": "The routine hourly aviation weather observation for an airport, in international coded format."
+  },
+  {
+    "id": "fc-metar-basics-speci",
+    "category": "airspace-weather",
+    "front": "SPECI",
+    "back": "A special, unscheduled METAR issued when weather changes significantly between hourly observations."
+  },
+  {
+    "id": "fc-metar-basics-summary",
+    "category": "airspace-weather",
+    "front": "Reading a METAR",
+    "back": "A METAR is the hourly airport weather observation, compressed into a coded one-liner. Once you learn the fixed field order — station, time, wind, visibility, weather, clouds, temperature, altimeter — it reads like a sentence."
+  },
+  {
+    "id": "fc-vfr-weather-minimums-special-vfr",
+    "category": "airspace-weather",
+    "front": "Special VFR",
+    "back": "An ATC authorization to operate in a surface area with 1 SM visibility, clear of clouds, when weather is below basic VFR."
+  },
+  {
+    "id": "fc-vfr-weather-minimums-91.155",
+    "category": "airspace-weather",
+    "front": "91.155",
+    "back": "The federal regulation table listing basic VFR visibility and cloud-clearance minimums per airspace class."
+  },
+  {
+    "id": "fc-vfr-weather-minimums-summary",
+    "category": "airspace-weather",
+    "front": "VFR Weather Minimums",
+    "back": "Each airspace class sets minimum visibility and cloud distances for VFR flight. The workhorse number: 3 statute miles visibility, staying 500 ft below, 1,000 ft above, and 2,000 ft horizontal from clouds."
+  },
+  {
+    "id": "fc-wind-and-runways-crosswind-component",
+    "category": "airspace-weather",
+    "front": "Crosswind component",
+    "back": "The portion of the wind blowing perpendicular to the runway — the part you must actively counter."
+  },
+  {
+    "id": "fc-wind-and-runways-demonstrated-crosswind",
+    "category": "airspace-weather",
+    "front": "Demonstrated crosswind",
+    "back": "The highest crosswind component shown during factory certification testing — a benchmark, not a legal limit."
+  },
+  {
+    "id": "fc-wind-and-runways-summary",
+    "category": "airspace-weather",
+    "front": "Wind, Runways & Crosswinds",
+    "back": "Runways are numbered by their magnetic direction ÷ 10, and you use the one pointing most nearly into the wind. Whatever wind is left blowing across the runway is crosswind — the number that cancels student solos."
+  },
+  {
+    "id": "fc-lat-long-meridian",
+    "category": "navigation",
+    "front": "Meridian",
+    "back": "A line of longitude, running from pole to pole. The prime meridian (0°) passes through Greenwich."
+  },
+  {
+    "id": "fc-lat-long-nautical-mile",
+    "category": "navigation",
+    "front": "Nautical mile",
+    "back": "6,076 ft — one minute of latitude. The standard distance unit of aviation and the sea."
+  },
+  {
+    "id": "fc-lat-long-summary",
+    "category": "navigation",
+    "front": "Latitude, Longitude & Position",
+    "back": "The earth is gridded by latitude lines (parallels, measuring north/south) and longitude lines (meridians, measuring east/west). Every position in aviation — and every GPS fix — is an address on this grid."
+  },
+  {
+    "id": "fc-sectional-charts-mef",
+    "category": "navigation",
+    "front": "MEF",
+    "back": "Maximum Elevation Figure — the big blue number per grid box giving an altitude that clears all terrain and obstacles in it."
+  },
+  {
+    "id": "fc-sectional-charts-chart-supplement",
+    "category": "navigation",
+    "front": "Chart Supplement",
+    "back": "The FAA's airport directory (formerly A/FD): every detail about an airport that the chart itself can't fit."
+  },
+  {
+    "id": "fc-sectional-charts-summary",
+    "category": "navigation",
+    "front": "Sectional Charts: The VFR Map",
+    "back": "The sectional is the VFR pilot's chart: 1:500,000 scale, showing terrain, obstacles, airports, airspace, and navaids. Learn its legend and the whole national airspace system becomes readable."
+  },
+  {
+    "id": "fc-pilotage-dead-reckoning-checkpoint",
+    "category": "navigation",
+    "front": "Checkpoint",
+    "back": "A pre-selected, unmistakable landmark used to confirm position along a route."
+  },
+  {
+    "id": "fc-pilotage-dead-reckoning-navlog",
+    "category": "navigation",
+    "front": "Navlog",
+    "back": "The planning sheet listing each leg's course, heading, distance, time, and fuel — the dead-reckoning script."
+  },
+  {
+    "id": "fc-pilotage-dead-reckoning-summary",
+    "category": "navigation",
+    "front": "Pilotage & Dead Reckoning",
+    "back": "Pilotage is navigating by looking outside and matching landmarks to the chart. Dead reckoning is predicting position from heading, speed, and time. Together they are the foundation the GPS merely decorates."
+  },
+  {
+    "id": "fc-vor-ndb-navigation-radial",
+    "category": "navigation",
+    "front": "Radial",
+    "back": "One of 360 magnetic courses radiating FROM a VOR station, like spokes from a hub."
+  },
+  {
+    "id": "fc-vor-ndb-navigation-obs",
+    "category": "navigation",
+    "front": "OBS",
+    "back": "Omni Bearing Selector — the knob that dials the course you want the VOR needle to reference."
+  },
+  {
+    "id": "fc-vor-ndb-navigation-summary",
+    "category": "navigation",
+    "front": "VOR & NDB: Ground-Based Navigation",
+    "back": "VOR stations broadcast 360 radials you can track like spokes of a wheel; the cockpit needle shows deviation from your chosen radial. NDBs are their simpler, older cousins — a beacon your needle simply points at."
+  },
+  {
+    "id": "fc-gps-navigation-raim",
+    "category": "navigation",
+    "front": "RAIM",
+    "back": "Receiver Autonomous Integrity Monitoring — the GPS receiver's self-check that detects a faulty satellite signal."
+  },
+  {
+    "id": "fc-gps-navigation-waas",
+    "category": "navigation",
+    "front": "WAAS",
+    "back": "Wide Area Augmentation System — satellite-broadcast corrections improving GPS accuracy to ~1–2 m for aviation."
+  },
+  {
+    "id": "fc-gps-navigation-summary",
+    "category": "navigation",
+    "front": "GPS & Satellite Navigation",
+    "back": "GPS receivers triangulate position from satellite timing signals, giving position, groundspeed, and track anywhere on earth. It has revolutionized navigation — and created a new failure mode: blind trust."
+  },
+  {
+    "id": "fc-right-of-way-converging",
+    "category": "protocols-safety",
+    "front": "Converging",
+    "back": "Two aircraft on paths that will intersect — the one on the right has priority."
+  },
+  {
+    "id": "fc-right-of-way-final-approach",
+    "category": "protocols-safety",
+    "front": "Final approach",
+    "back": "The last straight segment of the landing pattern, aligned with the runway."
+  },
+  {
+    "id": "fc-right-of-way-summary",
+    "category": "protocols-safety",
+    "front": "Right-of-Way Rules",
+    "back": "When aircraft converge, fixed rules decide who yields: distress trumps everything, the less-maneuverable aircraft has priority, head-on traffic breaks right, and the lower aircraft on final owns the runway."
+  },
+  {
+    "id": "fc-imsafe-checklist-bottle-to-throttle",
+    "category": "protocols-safety",
+    "front": "Bottle-to-throttle",
+    "back": "Shorthand for the minimum 8 hours required between consuming alcohol and flying (91.17)."
+  },
+  {
+    "id": "fc-imsafe-checklist-pave",
+    "category": "protocols-safety",
+    "front": "PAVE",
+    "back": "The broader preflight risk framework: Pilot, Aircraft, enVironment, External pressures."
+  },
+  {
+    "id": "fc-imsafe-checklist-summary",
+    "category": "protocols-safety",
+    "front": "IMSAFE: The Pilot Preflight",
+    "back": "Airplanes get a preflight inspection; so must pilots. IMSAFE checks Illness, Medication, Stress, Alcohol, Fatigue, and Emotion before every flight — because the most failure-prone component in aviation is human."
+  },
+  {
+    "id": "fc-traffic-pattern-abeam",
+    "category": "protocols-safety",
+    "front": "Abeam",
+    "back": "Directly off the side of — 'abeam the numbers' means beside the runway threshold, the downwind trigger point."
+  },
+  {
+    "id": "fc-traffic-pattern-pattern-altitude",
+    "category": "protocols-safety",
+    "front": "Pattern altitude",
+    "back": "The published circuit height, typically 1,000 ft AGL, flown on the downwind leg."
+  },
+  {
+    "id": "fc-traffic-pattern-summary",
+    "category": "protocols-safety",
+    "front": "The Traffic Pattern",
+    "back": "Airports organize arrivals and departures into a rectangular circuit: upwind, crosswind, downwind, base, and final. Standard patterns turn LEFT, fly about 1,000 ft above the field, and make every airplane predictable."
+  },
+  {
+    "id": "fc-checklist-discipline-run-up",
+    "category": "protocols-safety",
+    "front": "Run-up",
+    "back": "The pre-takeoff engine check: magnetos, carb heat, gauges — performed at the hold-short area."
+  },
+  {
+    "id": "fc-checklist-discipline-memory-items",
+    "category": "protocols-safety",
+    "front": "Memory items",
+    "back": "Emergency steps executed immediately from memory (bold-face), before reading the full checklist."
+  },
+  {
+    "id": "fc-checklist-discipline-summary",
+    "category": "protocols-safety",
+    "front": "Checklists & Flows",
+    "back": "Aviation's core safety invention is embarrassingly simple: written checklists, actually used. They exist because memory fails predictably — especially under stress, interruption, and routine."
+  },
+  {
+    "id": "fc-aviate-navigate-communicate-best-glide-speed",
+    "category": "protocols-safety",
+    "front": "Best glide speed",
+    "back": "The airspeed yielding maximum distance per foot of altitude lost — the first number flown after an engine failure."
+  },
+  {
+    "id": "fc-aviate-navigate-communicate-mayday",
+    "category": "protocols-safety",
+    "front": "MAYDAY",
+    "back": "The spoken distress signal, repeated three times, taking absolute priority over all other radio traffic."
+  },
+  {
+    "id": "fc-aviate-navigate-communicate-summary",
+    "category": "protocols-safety",
+    "front": "Aviate, Navigate, Communicate",
+    "back": "Aviation's priority hierarchy for every situation, especially emergencies: FIRST fly the airplane, THEN figure out where you are going, and only THEN talk on the radio. Order is everything."
+  }
+]
