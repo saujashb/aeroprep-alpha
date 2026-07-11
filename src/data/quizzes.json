@@ -1,0 +1,1328 @@
+[
+  {
+    "id": "q-phonetic-alphabet-1",
+    "nodeId": "phonetic-alphabet",
+    "question": "What is the main idea behind \"Phonetic Alphabet & Numbers\"?",
+    "choices": [
+      "Pilots and controllers spell letters with standard words (Alpha, Bravo, Charlie) and pronounce certain numbers different…",
+      "It only applies to airline pilots, not student pilots.",
+      "It is optional knowledge not tested on the FAA written exam.",
+      "It has been replaced by GPS and is no longer used."
+    ],
+    "correctIndex": 0,
+    "explanation": "Pilots and controllers spell letters with standard words (Alpha, Bravo, Charlie) and pronounce certain numbers differently (Tree, Fower, Fife, Niner) so nothing is misheard over a crackly radio."
+  },
+  {
+    "id": "q-phonetic-alphabet-2",
+    "nodeId": "phonetic-alphabet",
+    "question": "In aviation, \"ICAO\" means:",
+    "choices": [
+      "International Civil Aviation Organization — the UN agency that standardizes aviation worldwide, including the phonetic alphabet.",
+      "A type of aircraft engine malfunction",
+      "A runway lighting color code",
+      "An obsolete term no longer used on the radio"
+    ],
+    "correctIndex": 0,
+    "explanation": "International Civil Aviation Organization — the UN agency that standardizes aviation worldwide, including the phonetic alphabet."
+  },
+  {
+    "id": "q-phonetic-alphabet-3",
+    "nodeId": "phonetic-alphabet",
+    "question": "After mastering \"Phonetic Alphabet & Numbers\", which advanced detail is most accurate?",
+    "choices": [
+      "A few refinements you can now layer on. \"Niner\" is mandatory, but you will hear U.S. pilots slip and say \"nine\" — controllers understand, ye…",
+      "Advanced material is identical to the beginner summary.",
+      "There is no regulatory basis for this topic in the U.S.",
+      "Student pilots should ignore this until after the checkride."
+    ],
+    "correctIndex": 0,
+    "explanation": "A few refinements you can now layer on. \"Niner\" is mandatory, but you will hear U.S. pilots slip and say \"nine\" — controllers understand, yet checkride examiners notice. Flight levels are spoken digit-by-digit: FL350 is \"flight level tree five zero\". Frequencies keep the word \"point\": 121.5 is \"one two one point fife\" (ICAO says \"decimal\"). Group form (\"one seventy knots\") is officially tolerated in some countries for round numbers, but U.S. standard remains individual digits for headings, transponder codes, and callsigns."
+  },
+  {
+    "id": "q-radio-basics-1",
+    "nodeId": "radio-basics",
+    "question": "What is the main idea behind \"How Aviation Radios Work\"?",
+    "choices": [
+      "Aviation voice radio is simplex: one shared frequency per facility, push-to-talk, and only one person can transmit at a …",
+      "It only applies to airline pilots, not student pilots.",
+      "It is optional knowledge not tested on the FAA written exam.",
+      "It has been replaced by GPS and is no longer used."
+    ],
+    "correctIndex": 0,
+    "explanation": "Aviation voice radio is simplex: one shared frequency per facility, push-to-talk, and only one person can transmit at a time. Listening discipline matters as much as speaking."
+  },
+  {
+    "id": "q-radio-basics-2",
+    "nodeId": "radio-basics",
+    "question": "In aviation, \"PTT\" means:",
+    "choices": [
+      "Push-To-Talk — the trigger-style button on the yoke or handmic that keys the transmitter.",
+      "A type of aircraft engine malfunction",
+      "A runway lighting color code",
+      "An obsolete term no longer used on the radio"
+    ],
+    "correctIndex": 0,
+    "explanation": "Push-To-Talk — the trigger-style button on the yoke or handmic that keys the transmitter."
+  },
+  {
+    "id": "q-radio-basics-3",
+    "nodeId": "radio-basics",
+    "question": "After mastering \"How Aviation Radios Work\", which advanced detail is most accurate?",
+    "choices": [
+      "Now some texture. U.S. VHF comm channels are spaced 25 kHz apart (Europe uses 8.33 kHz spacing, which is why newer radios show more decimal …",
+      "Advanced material is identical to the beginner summary.",
+      "There is no regulatory basis for this topic in the U.S.",
+      "Student pilots should ignore this until after the checkride."
+    ],
+    "correctIndex": 0,
+    "explanation": "Now some texture. U.S. VHF comm channels are spaced 25 kHz apart (Europe uses 8.33 kHz spacing, which is why newer radios show more decimal places). Line-of-sight propagation means range grows with altitude — roughly 1.23 × √(altitude in feet) nautical miles, so at 3,000 ft you can hear stations about 65 NM away, but a mountain between you and the antenna blocks everything."
+  },
+  {
+    "id": "q-standard-phraseology-1",
+    "nodeId": "standard-phraseology",
+    "question": "What is the main idea behind \"Standard Phraseology\"?",
+    "choices": [
+      "Aviation uses a fixed vocabulary — Roger, Wilco, Affirm, Negative, Line Up and Wait, Cleared for the Option — where ever…",
+      "It only applies to airline pilots, not student pilots.",
+      "It is optional knowledge not tested on the FAA written exam.",
+      "It has been replaced by GPS and is no longer used."
+    ],
+    "correctIndex": 0,
+    "explanation": "Aviation uses a fixed vocabulary — Roger, Wilco, Affirm, Negative, Line Up and Wait, Cleared for the Option — where every word has one exact meaning, eliminating ambiguity."
+  },
+  {
+    "id": "q-standard-phraseology-2",
+    "nodeId": "standard-phraseology",
+    "question": "In aviation, \"Wilco\" means:",
+    "choices": [
+      "\"Will comply\" — I received your instruction and will carry it out. Stronger than Roger.",
+      "A type of aircraft engine malfunction",
+      "A runway lighting color code",
+      "An obsolete term no longer used on the radio"
+    ],
+    "correctIndex": 0,
+    "explanation": "\"Will comply\" — I received your instruction and will carry it out. Stronger than Roger."
+  },
+  {
+    "id": "q-standard-phraseology-3",
+    "nodeId": "standard-phraseology",
+    "question": "After mastering \"Standard Phraseology\", which advanced detail is most accurate?",
+    "choices": [
+      "Deeper cuts for the frequency-fluent. \"IMMEDIATELY\" from a controller means safety is at stake — comply or unable, now. \"UNABLE\" is a comple…",
+      "Advanced material is identical to the beginner summary.",
+      "There is no regulatory basis for this topic in the U.S.",
+      "Student pilots should ignore this until after the checkride."
+    ],
+    "correctIndex": 0,
+    "explanation": "Deeper cuts for the frequency-fluent. \"IMMEDIATELY\" from a controller means safety is at stake — comply or unable, now. \"UNABLE\" is a complete, professional sentence; never accept a clearance you cannot fly. \"BLOCKED\" tells two stations they transmitted simultaneously. \"HOLD SHORT\" instructions require a verbatim readback with the runway identifier by regulation; a plain \"roger\" will get you corrected. Note that \"cleared for the option\" can be restricted (\"option approved, no stop-and-go\") at busy fields."
+  },
+  {
+    "id": "q-radio-call-structure-1",
+    "nodeId": "radio-call-structure",
+    "question": "What is the main idea behind \"The Four W's of a Radio Call\"?",
+    "choices": [
+      "Every initial radio call follows one template: WHO you are calling, WHO you are, WHERE you are, and WHAT you want. Maste…",
+      "It only applies to airline pilots, not student pilots.",
+      "It is optional knowledge not tested on the FAA written exam.",
+      "It has been replaced by GPS and is no longer used."
+    ],
+    "correctIndex": 0,
+    "explanation": "Every initial radio call follows one template: WHO you are calling, WHO you are, WHERE you are, and WHAT you want. Master this skeleton and no call will ever feel improvised."
+  },
+  {
+    "id": "q-radio-call-structure-2",
+    "nodeId": "radio-call-structure",
+    "question": "In aviation, \"ATIS\" means:",
+    "choices": [
+      "Automatic Terminal Information Service — a recorded loop of weather and airport info, updated hourly, each version lettered phonetically (Information Alpha, Bravo...).",
+      "A type of aircraft engine malfunction",
+      "A runway lighting color code",
+      "An obsolete term no longer used on the radio"
+    ],
+    "correctIndex": 0,
+    "explanation": "Automatic Terminal Information Service — a recorded loop of weather and airport info, updated hourly, each version lettered phonetically (Information Alpha, Bravo...)."
+  },
+  {
+    "id": "q-radio-call-structure-3",
+    "nodeId": "radio-call-structure",
+    "question": "After mastering \"The Four W's of a Radio Call\", which advanced detail is most accurate?",
+    "choices": [
+      "Refinements that mark a polished pilot. If the frequency is busy, an attention-getter call (\"Portland Approach, Cessna one seven two sierra …",
+      "Advanced material is identical to the beginner summary.",
+      "There is no regulatory basis for this topic in the U.S.",
+      "Student pilots should ignore this until after the checkride."
+    ],
+    "correctIndex": 0,
+    "explanation": "Refinements that mark a polished pilot. If the frequency is busy, an attention-getter call (\"Portland Approach, Cessna one seven two sierra papa, request\") lets the controller schedule you instead of blocking the channel with your life story. When checking in with a new radar controller after a handoff, state altitude with intentions: \"Portland Approach, Cessna two sierra papa, level three thousand five hundred\" — they must verify your Mode C readout matches."
+  },
+  {
+    "id": "q-squawk-codes-1",
+    "nodeId": "squawk-codes",
+    "question": "What is the main idea behind \"Transponders & Squawk Codes\"?",
+    "choices": [
+      "Your transponder broadcasts a four-digit code that paints you on ATC radar. 1200 means VFR; 7500, 7600, and 7700 are the…",
+      "It only applies to airline pilots, not student pilots.",
+      "It is optional knowledge not tested on the FAA written exam.",
+      "It has been replaced by GPS and is no longer used."
+    ],
+    "correctIndex": 0,
+    "explanation": "Your transponder broadcasts a four-digit code that paints you on ATC radar. 1200 means VFR; 7500, 7600, and 7700 are the emergency codes for hijack, radio failure, and general emergency."
+  },
+  {
+    "id": "q-squawk-codes-2",
+    "nodeId": "squawk-codes",
+    "question": "In aviation, \"Transponder\" means:",
+    "choices": [
+      "The radio device that answers radar interrogations with your assigned code and altitude.",
+      "A type of aircraft engine malfunction",
+      "A runway lighting color code",
+      "An obsolete term no longer used on the radio"
+    ],
+    "correctIndex": 0,
+    "explanation": "The radio device that answers radar interrogations with your assigned code and altitude."
+  },
+  {
+    "id": "q-squawk-codes-3",
+    "nodeId": "squawk-codes",
+    "question": "After mastering \"Transponders & Squawk Codes\", which advanced detail is most accurate?",
+    "choices": [
+      "The modern layer: ADS-B Out, mandated since 2020 in most controlled airspace where a transponder was already required (FAR 91.225), broadcas…",
+      "Advanced material is identical to the beginner summary.",
+      "There is no regulatory basis for this topic in the U.S.",
+      "Student pilots should ignore this until after the checkride."
+    ],
+    "correctIndex": 0,
+    "explanation": "The modern layer: ADS-B Out, mandated since 2020 in most controlled airspace where a transponder was already required (FAR 91.225), broadcasts your GPS position once per second — richer than radar replies, and it is why controllers may see you taxiing. \"Squawk ident\" means press the IDENT button, which blossoms your target on the scope so the controller can positively pick you out; never press ident unless asked."
+  },
+  {
+    "id": "q-atis-basics-1",
+    "nodeId": "atis-basics",
+    "question": "What is the main idea behind \"ATIS: The Airport's Recorded Briefing\"?",
+    "choices": [
+      "ATIS is a continuously looping recording of an airport's current weather, active runways, and notices. Each new version …",
+      "It only applies to airline pilots, not student pilots.",
+      "It is optional knowledge not tested on the FAA written exam.",
+      "It has been replaced by GPS and is no longer used."
+    ],
+    "correctIndex": 0,
+    "explanation": "ATIS is a continuously looping recording of an airport's current weather, active runways, and notices. Each new version gets the next phonetic letter, and you must tell ATC which one you heard."
+  },
+  {
+    "id": "q-atis-basics-2",
+    "nodeId": "atis-basics",
+    "question": "In aviation, \"AWOS/ASOS\" means:",
+    "choices": [
+      "Automated Weather Observing/Surveillance System — computer-voiced weather at airports without a staffed ATIS.",
+      "A type of aircraft engine malfunction",
+      "A runway lighting color code",
+      "An obsolete term no longer used on the radio"
+    ],
+    "correctIndex": 0,
+    "explanation": "Automated Weather Observing/Surveillance System — computer-voiced weather at airports without a staffed ATIS."
+  },
+  {
+    "id": "q-atis-basics-3",
+    "nodeId": "atis-basics",
+    "question": "After mastering \"ATIS: The Airport's Recorded Briefing\", which advanced detail is most accurate?",
+    "choices": [
+      "Nuances worth knowing now. Listen to ATIS early, ideally 15–20 NM out, so you can plan the pattern entry before workload rises — but re-chec…",
+      "Advanced material is identical to the beginner summary.",
+      "There is no regulatory basis for this topic in the U.S.",
+      "Student pilots should ignore this until after the checkride."
+    ],
+    "correctIndex": 0,
+    "explanation": "Nuances worth knowing now. Listen to ATIS early, ideally 15–20 NM out, so you can plan the pattern entry before workload rises — but re-check the letter if you loitered; a new METAR usually means a new letter at the top of the hour plus special updates when weather changes significantly (those come from SPECI observations). Some big airports split ATIS into separate arrival and departure broadcasts, and many now offer D-ATIS, delivering the same text via datalink to suitably equipped aircraft."
+  },
+  {
+    "id": "q-towered-vs-nontowered-1",
+    "nodeId": "towered-vs-nontowered",
+    "question": "What is the main idea behind \"Towered vs. Non-Towered Airports\"?",
+    "choices": [
+      "At towered airports, controllers issue instructions and clearances. At the vast majority of U.S. airports — non-towered …",
+      "It only applies to airline pilots, not student pilots.",
+      "It is optional knowledge not tested on the FAA written exam.",
+      "It has been replaced by GPS and is no longer used."
+    ],
+    "correctIndex": 0,
+    "explanation": "At towered airports, controllers issue instructions and clearances. At the vast majority of U.S. airports — non-towered — pilots self-announce on a common frequency (CTAF) and sequence themselves by convention."
+  },
+  {
+    "id": "q-towered-vs-nontowered-2",
+    "nodeId": "towered-vs-nontowered",
+    "question": "In aviation, \"CTAF\" means:",
+    "choices": [
+      "Common Traffic Advisory Frequency — the shared frequency where pilots at a non-towered airport self-announce positions and intentions.",
+      "A type of aircraft engine malfunction",
+      "A runway lighting color code",
+      "An obsolete term no longer used on the radio"
+    ],
+    "correctIndex": 0,
+    "explanation": "Common Traffic Advisory Frequency — the shared frequency where pilots at a non-towered airport self-announce positions and intentions."
+  },
+  {
+    "id": "q-towered-vs-nontowered-3",
+    "nodeId": "towered-vs-nontowered",
+    "question": "After mastering \"Towered vs. Non-Towered Airports\", which advanced detail is most accurate?",
+    "choices": [
+      "Finer points. UNICOM is not ATC — it is an advisory station often staffed by the FBO front desk; they can tell you the favored runway but ca…",
+      "Advanced material is identical to the beginner summary.",
+      "There is no regulatory basis for this topic in the U.S.",
+      "Student pilots should ignore this until after the checkride."
+    ],
+    "correctIndex": 0,
+    "explanation": "Finer points. UNICOM is not ATC — it is an advisory station often staffed by the FBO front desk; they can tell you the favored runway but cannot clear you for anything. At fields with no tower and no UNICOM, you self-announce on MULTICOM 122.9. FAA Advisory Circular 90-66C is the bible of non-towered etiquette: standard pattern entry is at a 45° angle to the downwind midfield, pattern altitude typically 1,000 ft AGL, and straight-in approaches are legal but you must not disrupt the established pattern flow."
+  },
+  {
+    "id": "q-aircraft-anatomy-1",
+    "nodeId": "aircraft-anatomy",
+    "question": "What is the main idea behind \"Parts of an Airplane\"?",
+    "choices": [
+      "Every airplane shares the same skeleton: fuselage (body), wings, empennage (tail group), landing gear, and powerplant. K…",
+      "It only applies to airline pilots, not student pilots.",
+      "It is optional knowledge not tested on the FAA written exam.",
+      "It has been replaced by GPS and is no longer used."
+    ],
+    "correctIndex": 0,
+    "explanation": "Every airplane shares the same skeleton: fuselage (body), wings, empennage (tail group), landing gear, and powerplant. Knowing the names unlocks every later systems lesson."
+  },
+  {
+    "id": "q-aircraft-anatomy-2",
+    "nodeId": "aircraft-anatomy",
+    "question": "In aviation, \"Fuselage\" means:",
+    "choices": [
+      "The airplane's central body structure, housing cockpit and cabin.",
+      "A type of aircraft engine malfunction",
+      "A runway lighting color code",
+      "An obsolete term no longer used on the radio"
+    ],
+    "correctIndex": 0,
+    "explanation": "The airplane's central body structure, housing cockpit and cabin."
+  },
+  {
+    "id": "q-aircraft-anatomy-3",
+    "nodeId": "aircraft-anatomy",
+    "question": "After mastering \"Parts of an Airplane\", which advanced detail is most accurate?",
+    "choices": [
+      "Now the vocabulary under the skin. Wings are built around one or more spars (the main lengthwise beams), ribs that give the airfoil its shap…",
+      "Advanced material is identical to the beginner summary.",
+      "There is no regulatory basis for this topic in the U.S.",
+      "Student pilots should ignore this until after the checkride."
+    ],
+    "correctIndex": 0,
+    "explanation": "Now the vocabulary under the skin. Wings are built around one or more spars (the main lengthwise beams), ribs that give the airfoil its shape, and stringers stiffening the skin. Most modern light aircraft are semi-monocoque: the aluminum skin itself carries much of the load, unlike old fabric-covered trusses. Where the wing meets air, chord is the imaginary line from leading to trailing edge, and the wing's angle of incidence is how the wing is permanently mounted relative to the fuselage — do not confuse it with angle of attack, which changes in flight."
+  },
+  {
+    "id": "q-high-vs-low-wing-1",
+    "nodeId": "high-vs-low-wing",
+    "question": "What is the main idea behind \"High-Wing vs. Low-Wing\"?",
+    "choices": [
+      "Cessnas carry the wing above the cabin; Pipers carry it below. Each layout trades visibility, fuel-system simplicity, gr…",
+      "It only applies to airline pilots, not student pilots.",
+      "It is optional knowledge not tested on the FAA written exam.",
+      "It has been replaced by GPS and is no longer used."
+    ],
+    "correctIndex": 0,
+    "explanation": "Cessnas carry the wing above the cabin; Pipers carry it below. Each layout trades visibility, fuel-system simplicity, ground effect, and stability differently — neither is 'better'."
+  },
+  {
+    "id": "q-high-vs-low-wing-2",
+    "nodeId": "high-vs-low-wing",
+    "question": "In aviation, \"Ground effect\" means:",
+    "choices": [
+      "Reduced drag and increased lift when flying within about one wingspan of the surface — causes 'floating' on landing.",
+      "A type of aircraft engine malfunction",
+      "A runway lighting color code",
+      "An obsolete term no longer used on the radio"
+    ],
+    "correctIndex": 0,
+    "explanation": "Reduced drag and increased lift when flying within about one wingspan of the surface — causes 'floating' on landing."
+  },
+  {
+    "id": "q-high-vs-low-wing-3",
+    "nodeId": "high-vs-low-wing",
+    "question": "After mastering \"High-Wing vs. Low-Wing\", which advanced detail is most accurate?",
+    "choices": [
+      "The stability story is subtler than forum wisdom suggests. A high wing places the fuselage's center of gravity below the wing, producing a m…",
+      "Advanced material is identical to the beginner summary.",
+      "There is no regulatory basis for this topic in the U.S.",
+      "Student pilots should ignore this until after the checkride."
+    ],
+    "correctIndex": 0,
+    "explanation": "The stability story is subtler than forum wisdom suggests. A high wing places the fuselage's center of gravity below the wing, producing a mild pendulum effect that aids lateral stability — which is why high-wing trainers get away with little or no dihedral, while low wings visibly tilt their wingtips up (dihedral) to recover the same tendency to level themselves after a gust."
+  },
+  {
+    "id": "q-four-forces-1",
+    "nodeId": "four-forces",
+    "question": "What is the main idea behind \"The Four Forces of Flight\"?",
+    "choices": [
+      "Lift opposes weight; thrust opposes drag. In steady, unaccelerated flight the pairs balance exactly — and everything an …",
+      "It only applies to airline pilots, not student pilots.",
+      "It is optional knowledge not tested on the FAA written exam.",
+      "It has been replaced by GPS and is no longer used."
+    ],
+    "correctIndex": 0,
+    "explanation": "Lift opposes weight; thrust opposes drag. In steady, unaccelerated flight the pairs balance exactly — and everything an airplane does is a deliberate re-balancing of these four forces."
+  },
+  {
+    "id": "q-four-forces-2",
+    "nodeId": "four-forces",
+    "question": "In aviation, \"Angle of attack\" means:",
+    "choices": [
+      "The angle between the wing's chord line and the oncoming (relative) wind. The single most important concept in flying.",
+      "A type of aircraft engine malfunction",
+      "A runway lighting color code",
+      "An obsolete term no longer used on the radio"
+    ],
+    "correctIndex": 0,
+    "explanation": "The angle between the wing's chord line and the oncoming (relative) wind. The single most important concept in flying."
+  },
+  {
+    "id": "q-four-forces-3",
+    "nodeId": "four-forces",
+    "question": "After mastering \"The Four Forces of Flight\", which advanced detail is most accurate?",
+    "choices": [
+      "Time for the fine print. Lift acts through the center of pressure, which moves as angle of attack changes, while weight acts through the cen…",
+      "Advanced material is identical to the beginner summary.",
+      "There is no regulatory basis for this topic in the U.S.",
+      "Student pilots should ignore this until after the checkride."
+    ],
+    "correctIndex": 0,
+    "explanation": "Time for the fine print. Lift acts through the center of pressure, which moves as angle of attack changes, while weight acts through the center of gravity — the mismatch creates pitching moments that the horizontal tail must balance, typically by pushing down. That tail-down force effectively adds to weight, which is why an aft-but-within-limits CG makes an airplane slightly faster and less stable."
+  },
+  {
+    "id": "q-flight-controls-1",
+    "nodeId": "flight-controls",
+    "question": "What is the main idea behind \"Primary Flight Controls\"?",
+    "choices": [
+      "Ailerons roll the airplane around its longitudinal axis, the elevator pitches it around the lateral axis, and the rudder…",
+      "It only applies to airline pilots, not student pilots.",
+      "It is optional knowledge not tested on the FAA written exam.",
+      "It has been replaced by GPS and is no longer used."
+    ],
+    "correctIndex": 0,
+    "explanation": "Ailerons roll the airplane around its longitudinal axis, the elevator pitches it around the lateral axis, and the rudder yaws it around the vertical axis. All three change lift on a surface to swing the airplane around its center of gravity."
+  },
+  {
+    "id": "q-flight-controls-2",
+    "nodeId": "flight-controls",
+    "question": "In aviation, \"Adverse yaw\" means:",
+    "choices": [
+      "The nose swinging opposite your roll input, caused by extra drag on the wing with the lowered aileron.",
+      "A type of aircraft engine malfunction",
+      "A runway lighting color code",
+      "An obsolete term no longer used on the radio"
+    ],
+    "correctIndex": 0,
+    "explanation": "The nose swinging opposite your roll input, caused by extra drag on the wing with the lowered aileron."
+  },
+  {
+    "id": "q-flight-controls-3",
+    "nodeId": "flight-controls",
+    "question": "After mastering \"Primary Flight Controls\", which advanced detail is most accurate?",
+    "choices": [
+      "Design details you can now appreciate. Manufacturers fight adverse yaw at the drawing board: differential ailerons (the up-going aileron def…",
+      "Advanced material is identical to the beginner summary.",
+      "There is no regulatory basis for this topic in the U.S.",
+      "Student pilots should ignore this until after the checkride."
+    ],
+    "correctIndex": 0,
+    "explanation": "Design details you can now appreciate. Manufacturers fight adverse yaw at the drawing board: differential ailerons (the up-going aileron deflects farther than the down-going one) and Frise ailerons (the up-aileron's nose pokes below the wing, adding drag on the descending wing) both reduce, but do not eliminate, your rudder work. Some aircraft mix functions: flaperons combine flaps and ailerons; a V-tail Bonanza's ruddervators combine rudder and elevator; delta-winged aircraft use elevons."
+  },
+  {
+    "id": "q-flaps-and-trim-1",
+    "nodeId": "flaps-and-trim",
+    "question": "What is the main idea behind \"Flaps & Trim\"?",
+    "choices": [
+      "Flaps reshape the wing for slow flight, letting you land slower and descend steeper. Trim removes steady control pressur…",
+      "It only applies to airline pilots, not student pilots.",
+      "It is optional knowledge not tested on the FAA written exam.",
+      "It has been replaced by GPS and is no longer used."
+    ],
+    "correctIndex": 0,
+    "explanation": "Flaps reshape the wing for slow flight, letting you land slower and descend steeper. Trim removes steady control pressure so the airplane holds an attitude hands-off."
+  },
+  {
+    "id": "q-flaps-and-trim-2",
+    "nodeId": "flaps-and-trim",
+    "question": "In aviation, \"Camber\" means:",
+    "choices": [
+      "The curvature of a wing's surfaces. More camber = more lift (and drag) at a given speed.",
+      "A type of aircraft engine malfunction",
+      "A runway lighting color code",
+      "An obsolete term no longer used on the radio"
+    ],
+    "correctIndex": 0,
+    "explanation": "The curvature of a wing's surfaces. More camber = more lift (and drag) at a given speed."
+  },
+  {
+    "id": "q-flaps-and-trim-3",
+    "nodeId": "flaps-and-trim",
+    "question": "After mastering \"Flaps & Trim\", which advanced detail is most accurate?",
+    "choices": [
+      "The systems edge cases. Each flap setting has a maximum extension speed; the airspeed indicator's white arc runs from stall speed in landing…",
+      "Advanced material is identical to the beginner summary.",
+      "There is no regulatory basis for this topic in the U.S.",
+      "Student pilots should ignore this until after the checkride."
+    ],
+    "correctIndex": 0,
+    "explanation": "The systems edge cases. Each flap setting has a maximum extension speed; the airspeed indicator's white arc runs from stall speed in landing configuration (Vso) to maximum flap-extended speed (Vfe). Extend above Vfe and you risk structural damage. Retracting flaps has traps too: dumping full flaps at low speed and low altitude during a go-around causes a sink you may not have altitude to absorb — retract in stages, and expect a pitch change with each notch (Cessnas typically pitch up as flaps retract)."
+  },
+  {
+    "id": "q-six-pack-1",
+    "nodeId": "six-pack",
+    "question": "What is the main idea behind \"The Traditional Six-Pack\"?",
+    "choices": [
+      "Six round instruments in two rows of three tell you everything about the airplane's state: airspeed, attitude, altitude …",
+      "It only applies to airline pilots, not student pilots.",
+      "It is optional knowledge not tested on the FAA written exam.",
+      "It has been replaced by GPS and is no longer used."
+    ],
+    "correctIndex": 0,
+    "explanation": "Six round instruments in two rows of three tell you everything about the airplane's state: airspeed, attitude, altitude across the top; turn coordination, heading, and vertical speed across the bottom."
+  },
+  {
+    "id": "q-six-pack-2",
+    "nodeId": "six-pack",
+    "question": "In aviation, \"Inclinometer\" means:",
+    "choices": [
+      "The ball-in-a-tube at the bottom of the turn coordinator showing slip (ball inside the turn) or skid (ball outside).",
+      "A type of aircraft engine malfunction",
+      "A runway lighting color code",
+      "An obsolete term no longer used on the radio"
+    ],
+    "correctIndex": 0,
+    "explanation": "The ball-in-a-tube at the bottom of the turn coordinator showing slip (ball inside the turn) or skid (ball outside)."
+  },
+  {
+    "id": "q-six-pack-3",
+    "nodeId": "six-pack",
+    "question": "After mastering \"The Traditional Six-Pack\", which advanced detail is most accurate?",
+    "choices": [
+      "The instrument scan is a learned skill with named failure modes: fixation (staring at one gauge), omission, and emphasis. The classic techni…",
+      "Advanced material is identical to the beginner summary.",
+      "There is no regulatory basis for this topic in the U.S.",
+      "Student pilots should ignore this until after the checkride."
+    ],
+    "correctIndex": 0,
+    "explanation": "The instrument scan is a learned skill with named failure modes: fixation (staring at one gauge), omission, and emphasis. The classic technique is the hub-and-spoke: eyes return to the attitude indicator between every other instrument. Instrument-failure recognition starts with cross-checking — if the AI shows a climb but altimeter and VSI disagree, believe the majority and suspect the vacuum pump."
+  },
+  {
+    "id": "q-pitot-static-system-1",
+    "nodeId": "pitot-static-system",
+    "question": "What is the main idea behind \"The Pitot-Static System\"?",
+    "choices": [
+      "A forward-facing pitot tube captures ram air pressure and small static ports sense undisturbed ambient pressure. From ju…",
+      "It only applies to airline pilots, not student pilots.",
+      "It is optional knowledge not tested on the FAA written exam.",
+      "It has been replaced by GPS and is no longer used."
+    ],
+    "correctIndex": 0,
+    "explanation": "A forward-facing pitot tube captures ram air pressure and small static ports sense undisturbed ambient pressure. From just these two pressures, the airplane derives airspeed, altitude, and vertical speed."
+  },
+  {
+    "id": "q-pitot-static-system-2",
+    "nodeId": "pitot-static-system",
+    "question": "In aviation, \"Ram pressure\" means:",
+    "choices": [
+      "The extra pressure produced by air being decelerated in the pitot tube's opening as the aircraft moves.",
+      "A type of aircraft engine malfunction",
+      "A runway lighting color code",
+      "An obsolete term no longer used on the radio"
+    ],
+    "correctIndex": 0,
+    "explanation": "The extra pressure produced by air being decelerated in the pitot tube's opening as the aircraft moves."
+  },
+  {
+    "id": "q-pitot-static-system-3",
+    "nodeId": "pitot-static-system",
+    "question": "After mastering \"The Pitot-Static System\", which advanced detail is most accurate?",
+    "choices": [
+      "Failure modes make great exam questions because they are perverse. Pitot blocked with drain hole open: ASI drops to zero. Pitot AND drain bl…",
+      "Advanced material is identical to the beginner summary.",
+      "There is no regulatory basis for this topic in the U.S.",
+      "Student pilots should ignore this until after the checkride."
+    ],
+    "correctIndex": 0,
+    "explanation": "Failure modes make great exam questions because they are perverse. Pitot blocked with drain hole open: ASI drops to zero. Pitot AND drain blocked: trapped pressure turns the ASI into a crude altimeter — climb and the indicated airspeed rises, tempting you to pitch up further; this killed the crew of Aeroperú 603. Static ports blocked: altimeter freezes, VSI zeros, and the ASI misleads (over-reads below the blockage altitude, under-reads above). The alternate static valve vents cabin pressure — slightly lower than ambient in flight, so expect the altimeter to jump up a bit and airspeed to read a touch high when you open it."
+  },
+  {
+    "id": "q-gyro-instruments-1",
+    "nodeId": "gyro-instruments",
+    "question": "What is the main idea behind \"Gyroscopic Instruments\"?",
+    "choices": [
+      "The attitude indicator, heading indicator, and turn coordinator all exploit a spinning gyroscope's rigidity in space. In…",
+      "It only applies to airline pilots, not student pilots.",
+      "It is optional knowledge not tested on the FAA written exam.",
+      "It has been replaced by GPS and is no longer used."
+    ],
+    "correctIndex": 0,
+    "explanation": "The attitude indicator, heading indicator, and turn coordinator all exploit a spinning gyroscope's rigidity in space. In most trainers, two run on engine-driven vacuum and one on electricity."
+  },
+  {
+    "id": "q-gyro-instruments-2",
+    "nodeId": "gyro-instruments",
+    "question": "In aviation, \"Rigidity in space\" means:",
+    "choices": [
+      "A spinning gyroscope's tendency to keep its axis pointed the same direction regardless of how its mount moves.",
+      "A type of aircraft engine malfunction",
+      "A runway lighting color code",
+      "An obsolete term no longer used on the radio"
+    ],
+    "correctIndex": 0,
+    "explanation": "A spinning gyroscope's tendency to keep its axis pointed the same direction regardless of how its mount moves."
+  },
+  {
+    "id": "q-gyro-instruments-3",
+    "nodeId": "gyro-instruments",
+    "question": "After mastering \"Gyroscopic Instruments\", which advanced detail is most accurate?",
+    "choices": [
+      "Two gyro behaviors matter beyond rigidity. Precession — a force applied to a spinning gyro acts 90° later in the direction of rotation — is …",
+      "Advanced material is identical to the beginner summary.",
+      "There is no regulatory basis for this topic in the U.S.",
+      "Student pilots should ignore this until after the checkride."
+    ],
+    "correctIndex": 0,
+    "explanation": "Two gyro behaviors matter beyond rigidity. Precession — a force applied to a spinning gyro acts 90° later in the direction of rotation — is both the HI's slow drift error and the gyroscopic left-turning tendency when a taildragger raises its tail. And older attitude indicators have acceleration errors: rapid acceleration pitches the display up slightly (dangerous on a night takeoff — the 'somatogravic' trap pairs with it)."
+  },
+  {
+    "id": "q-glass-cockpit-1",
+    "nodeId": "glass-cockpit",
+    "question": "What is the main idea behind \"Glass Cockpits: PFD & MFD\"?",
+    "choices": [
+      "Glass cockpits like the Garmin G1000 replace the six-pack with two screens: a Primary Flight Display consolidating all f…",
+      "It only applies to airline pilots, not student pilots.",
+      "It is optional knowledge not tested on the FAA written exam.",
+      "It has been replaced by GPS and is no longer used."
+    ],
+    "correctIndex": 0,
+    "explanation": "Glass cockpits like the Garmin G1000 replace the six-pack with two screens: a Primary Flight Display consolidating all flight instruments, and a Multi-Function Display for moving map, engine data, and traffic."
+  },
+  {
+    "id": "q-glass-cockpit-2",
+    "nodeId": "glass-cockpit",
+    "question": "In aviation, \"PFD\" means:",
+    "choices": [
+      "Primary Flight Display — the screen consolidating attitude, airspeed, altitude, heading, and vertical speed.",
+      "A type of aircraft engine malfunction",
+      "A runway lighting color code",
+      "An obsolete term no longer used on the radio"
+    ],
+    "correctIndex": 0,
+    "explanation": "Primary Flight Display — the screen consolidating attitude, airspeed, altitude, heading, and vertical speed."
+  },
+  {
+    "id": "q-glass-cockpit-3",
+    "nodeId": "glass-cockpit",
+    "question": "After mastering \"Glass Cockpits: PFD & MFD\", which advanced detail is most accurate?",
+    "choices": [
+      "Deeper glass fluency. If the PFD screen fails in a G1000, reversionary mode squeezes PFD instruments onto the MFD at a button press. AHRS fa…",
+      "Advanced material is identical to the beginner summary.",
+      "There is no regulatory basis for this topic in the U.S.",
+      "Student pilots should ignore this until after the checkride."
+    ],
+    "correctIndex": 0,
+    "explanation": "Deeper glass fluency. If the PFD screen fails in a G1000, reversionary mode squeezes PFD instruments onto the MFD at a button press. AHRS failure red-X's the attitude display but leaves air data alive (they are independent boxes), and vice versa — knowing which sensor feeds which symbol is the glass equivalent of partial panel. Certified installations still require standby instruments: usually a small electric attitude indicator or digital standby, an analog airspeed indicator, and altimeter, on a separate battery."
+  },
+  {
+    "id": "q-airspace-overview-1",
+    "nodeId": "airspace-overview",
+    "question": "What is the main idea behind \"The Airspace System at a Glance\"?",
+    "choices": [
+      "U.S. airspace comes in six classes, A through G (there is no F). Think of it as an upside-down wedding cake: the busier …",
+      "It only applies to airline pilots, not student pilots.",
+      "It is optional knowledge not tested on the FAA written exam.",
+      "It has been replaced by GPS and is no longer used."
+    ],
+    "correctIndex": 0,
+    "explanation": "U.S. airspace comes in six classes, A through G (there is no F). Think of it as an upside-down wedding cake: the busier the airport, the bigger and more demanding the protected airspace around it."
+  },
+  {
+    "id": "q-airspace-overview-2",
+    "nodeId": "airspace-overview",
+    "question": "In aviation, \"MSL\" means:",
+    "choices": [
+      "Mean Sea Level — altitude measured from average sea level; what the altimeter reads.",
+      "A type of aircraft engine malfunction",
+      "A runway lighting color code",
+      "An obsolete term no longer used on the radio"
+    ],
+    "correctIndex": 0,
+    "explanation": "Mean Sea Level — altitude measured from average sea level; what the altimeter reads."
+  },
+  {
+    "id": "q-airspace-overview-3",
+    "nodeId": "airspace-overview",
+    "question": "After mastering \"The Airspace System at a Glance\", which advanced detail is most accurate?",
+    "choices": [
+      "The exam-grade details. Class E most commonly starts at 700 ft AGL (inside the fuzzy magenta vignette), at 1,200 ft AGL across most of the r…",
+      "Advanced material is identical to the beginner summary.",
+      "There is no regulatory basis for this topic in the U.S.",
+      "Student pilots should ignore this until after the checkride."
+    ],
+    "correctIndex": 0,
+    "explanation": "The exam-grade details. Class E most commonly starts at 700 ft AGL (inside the fuzzy magenta vignette), at 1,200 ft AGL across most of the rest of the country, or at the surface when a dashed magenta box surrounds an instrument-approach airport; above FL600, airspace reverts to Class E as well. There IS a Class F in ICAO's scheme (advisory airspace); the U.S. simply chose not to use it — a favorite trick question."
+  },
+  {
+    "id": "q-class-b-airspace-1",
+    "nodeId": "class-b-airspace",
+    "question": "What is the main idea behind \"Class B: The Big-City Fortress\"?",
+    "choices": [
+      "Class B surrounds the nation's busiest hubs. You need an explicit clearance — the words 'cleared into the Class Bravo' —…",
+      "It only applies to airline pilots, not student pilots.",
+      "It is optional knowledge not tested on the FAA written exam.",
+      "It has been replaced by GPS and is no longer used."
+    ],
+    "correctIndex": 0,
+    "explanation": "Class B surrounds the nation's busiest hubs. You need an explicit clearance — the words 'cleared into the Class Bravo' — a Mode C transponder, and at least a private (or endorsed student) certificate."
+  },
+  {
+    "id": "q-class-b-airspace-2",
+    "nodeId": "class-b-airspace",
+    "question": "In aviation, \"Mode C veil\" means:",
+    "choices": [
+      "The 30-NM ring around a Class B primary airport where altitude-reporting transponders and ADS-B Out are mandatory.",
+      "A type of aircraft engine malfunction",
+      "A runway lighting color code",
+      "An obsolete term no longer used on the radio"
+    ],
+    "correctIndex": 0,
+    "explanation": "The 30-NM ring around a Class B primary airport where altitude-reporting transponders and ADS-B Out are mandatory."
+  },
+  {
+    "id": "q-class-b-airspace-3",
+    "nodeId": "class-b-airspace",
+    "question": "After mastering \"Class B: The Big-City Fortress\", which advanced detail is most accurate?",
+    "choices": [
+      "Working knowledge for flying near a Bravo. VFR transitions THROUGH Class B are routinely granted at less-busy hours — ask early, be concise,…",
+      "Advanced material is identical to the beginner summary.",
+      "There is no regulatory basis for this topic in the U.S.",
+      "Student pilots should ignore this until after the checkride."
+    ],
+    "correctIndex": 0,
+    "explanation": "Working knowledge for flying near a Bravo. VFR transitions THROUGH Class B are routinely granted at less-busy hours — ask early, be concise, and have a plan for 'unable'. Many Bravos publish VFR flyways and corridors on the reverse of the terminal area chart (TAC); the Los Angeles Special Flight Rules Area even lets you cross mid-field over LAX without talking to anyone, following published altitudes and procedures."
+  },
+  {
+    "id": "q-class-c-d-airspace-1",
+    "nodeId": "class-c-d-airspace",
+    "question": "What is the main idea behind \"Class C & D: Everyday Towered Airspace\"?",
+    "choices": [
+      "Class C wraps busy mid-size airports (two-way radio + Mode C required); Class D wraps ordinary towered fields (two-way r…",
+      "It only applies to airline pilots, not student pilots.",
+      "It is optional knowledge not tested on the FAA written exam.",
+      "It has been replaced by GPS and is no longer used."
+    ],
+    "correctIndex": 0,
+    "explanation": "Class C wraps busy mid-size airports (two-way radio + Mode C required); Class D wraps ordinary towered fields (two-way radio required). For both, entry needs your callsign acknowledged — not a formal clearance."
+  },
+  {
+    "id": "q-class-c-d-airspace-2",
+    "nodeId": "class-c-d-airspace",
+    "question": "In aviation, \"Approach control\" means:",
+    "choices": [
+      "The radar facility sequencing arrivals and departures around busier airports — the voice between center and tower.",
+      "A type of aircraft engine malfunction",
+      "A runway lighting color code",
+      "An obsolete term no longer used on the radio"
+    ],
+    "correctIndex": 0,
+    "explanation": "The radar facility sequencing arrivals and departures around busier airports — the voice between center and tower."
+  },
+  {
+    "id": "q-class-c-d-airspace-3",
+    "nodeId": "class-c-d-airspace",
+    "question": "After mastering \"Class C & D: Everyday Towered Airspace\", which advanced detail is most accurate?",
+    "choices": [
+      "Details that separate pass from fail. Class C's 'outer area' (not the charted shelf) extends radar services to 20 NM for participating aircr…",
+      "Advanced material is identical to the beginner summary.",
+      "There is no regulatory basis for this topic in the U.S.",
+      "Student pilots should ignore this until after the checkride."
+    ],
+    "correctIndex": 0,
+    "explanation": "Details that separate pass from fail. Class C's 'outer area' (not the charted shelf) extends radar services to 20 NM for participating aircraft — services, not requirements. Establishing comms with APPROACH counts for entering Class C; you do not need the tower until closer in. Class D ceilings are charted in a dashed blue box as hundreds of feet MSL (e.g. [25] = 2,500 MSL); a minus sign before the number means 'up to but not including'."
+  },
+  {
+    "id": "q-class-e-g-airspace-1",
+    "nodeId": "class-e-g-airspace",
+    "question": "What is the main idea behind \"Class E & G: Where Training Happens\"?",
+    "choices": [
+      "Class G is uncontrolled airspace hugging the ground; Class E is controlled airspace covering nearly everything else. No …",
+      "It only applies to airline pilots, not student pilots.",
+      "It is optional knowledge not tested on the FAA written exam.",
+      "It has been replaced by GPS and is no longer used."
+    ],
+    "correctIndex": 0,
+    "explanation": "Class G is uncontrolled airspace hugging the ground; Class E is controlled airspace covering nearly everything else. No clearance is needed for VFR in either — the difference is weather minimums and who protects IFR traffic."
+  },
+  {
+    "id": "q-class-e-g-airspace-2",
+    "nodeId": "class-e-g-airspace",
+    "question": "In aviation, \"Vignette\" means:",
+    "choices": [
+      "The fuzzy shaded band on sectionals; the magenta version marks Class E beginning at 700 ft AGL.",
+      "A type of aircraft engine malfunction",
+      "A runway lighting color code",
+      "An obsolete term no longer used on the radio"
+    ],
+    "correctIndex": 0,
+    "explanation": "The fuzzy shaded band on sectionals; the magenta version marks Class E beginning at 700 ft AGL."
+  },
+  {
+    "id": "q-class-e-g-airspace-3",
+    "nodeId": "class-e-g-airspace",
+    "question": "After mastering \"Class E & G: Where Training Happens\", which advanced detail is most accurate?",
+    "choices": [
+      "The full picture, PHAK-style. Class G VFR minimums by day below 1,200 AGL: 1 SM and clear of clouds; at night: 3 SM and 500/1,000/2,000 clou…",
+      "Advanced material is identical to the beginner summary.",
+      "There is no regulatory basis for this topic in the U.S.",
+      "Student pilots should ignore this until after the checkride."
+    ],
+    "correctIndex": 0,
+    "explanation": "The full picture, PHAK-style. Class G VFR minimums by day below 1,200 AGL: 1 SM and clear of clouds; at night: 3 SM and 500/1,000/2,000 cloud clearances (with a carve-out allowing 1 SM clear-of-clouds at night in the traffic pattern within a half mile of the runway). Between 1,200 AGL and 10,000 MSL in G: day 1 SM / night 3 SM with 500 below, 1,000 above, 2,000 horizontal. Above 10,000 MSL in either E or G: 5 SM and 1,000/1,000/1 SM — because closing speeds are higher where the 250-kt limit ends."
+  },
+  {
+    "id": "q-weather-for-pilots-1",
+    "nodeId": "weather-for-pilots",
+    "question": "What is the main idea behind \"Weather Essentials for Pilots\"?",
+    "choices": [
+      "Wind, visibility, clouds, and pressure are the four weather elements every VFR pilot reads before flying. Weather is the…",
+      "It only applies to airline pilots, not student pilots.",
+      "It is optional knowledge not tested on the FAA written exam.",
+      "It has been replaced by GPS and is no longer used."
+    ],
+    "correctIndex": 0,
+    "explanation": "Wind, visibility, clouds, and pressure are the four weather elements every VFR pilot reads before flying. Weather is the single biggest go/no-go factor in general aviation."
+  },
+  {
+    "id": "q-weather-for-pilots-2",
+    "nodeId": "weather-for-pilots",
+    "question": "In aviation, \"Ceiling\" means:",
+    "choices": [
+      "The height of the lowest broken or overcast cloud layer — the effective lid for VFR flight.",
+      "A type of aircraft engine malfunction",
+      "A runway lighting color code",
+      "An obsolete term no longer used on the radio"
+    ],
+    "correctIndex": 0,
+    "explanation": "The height of the lowest broken or overcast cloud layer — the effective lid for VFR flight."
+  },
+  {
+    "id": "q-weather-for-pilots-3",
+    "nodeId": "weather-for-pilots",
+    "question": "After mastering \"Weather Essentials for Pilots\", which advanced detail is most accurate?",
+    "choices": [
+      "The next layer connects observations to causes. Temperature/dew-point spread is your fog crystal ball: when they close within about 2 °C and…",
+      "Advanced material is identical to the beginner summary.",
+      "There is no regulatory basis for this topic in the U.S.",
+      "Student pilots should ignore this until after the checkride."
+    ],
+    "correctIndex": 0,
+    "explanation": "The next layer connects observations to causes. Temperature/dew-point spread is your fog crystal ball: when they close within about 2 °C and skies are clear with light wind, expect radiation fog by dawn. Stability governs cloud personality: stable air makes smooth flight, stratus sheets, and steady drizzle but traps haze; unstable air makes bumpy flight, cumulus towers, showers — and great visibility between them. Every thunderstorm needs three ingredients: moisture, unstable air, and a lifting force; avoid all storms by 20 NM, because hail and severe turbulence live outside the visible cloud."
+  },
+  {
+    "id": "q-metar-basics-1",
+    "nodeId": "metar-basics",
+    "question": "What is the main idea behind \"Reading a METAR\"?",
+    "choices": [
+      "A METAR is the hourly airport weather observation, compressed into a coded one-liner. Once you learn the fixed field ord…",
+      "It only applies to airline pilots, not student pilots.",
+      "It is optional knowledge not tested on the FAA written exam.",
+      "It has been replaced by GPS and is no longer used."
+    ],
+    "correctIndex": 0,
+    "explanation": "A METAR is the hourly airport weather observation, compressed into a coded one-liner. Once you learn the fixed field order — station, time, wind, visibility, weather, clouds, temperature, altimeter — it reads like a sentence."
+  },
+  {
+    "id": "q-metar-basics-2",
+    "nodeId": "metar-basics",
+    "question": "In aviation, \"METAR\" means:",
+    "choices": [
+      "The routine hourly aviation weather observation for an airport, in international coded format.",
+      "A type of aircraft engine malfunction",
+      "A runway lighting color code",
+      "An obsolete term no longer used on the radio"
+    ],
+    "correctIndex": 0,
+    "explanation": "The routine hourly aviation weather observation for an airport, in international coded format."
+  },
+  {
+    "id": "q-metar-basics-3",
+    "nodeId": "metar-basics",
+    "question": "After mastering \"Reading a METAR\", which advanced detail is most accurate?",
+    "choices": [
+      "Decoder black-belt items. AUTO marks a fully automated report; A02 in remarks means the station can tell rain from snow. RMK holds treasure:…",
+      "Advanced material is identical to the beginner summary.",
+      "There is no regulatory basis for this topic in the U.S.",
+      "Student pilots should ignore this until after the checkride."
+    ],
+    "correctIndex": 0,
+    "explanation": "Decoder black-belt items. AUTO marks a fully automated report; A02 in remarks means the station can tell rain from snow. RMK holds treasure: SLP136 (sea-level pressure 1013.6 hPa), T02220117 (precise temp 22.2, dew point 11.7), PK WND 28035/15 (peak wind), and PRESFR/PRESRR (pressure falling/rising rapidly — pay attention). Visibility below a mile is fractional (3/4SM); M1/4SM means less than a quarter mile. VV004 is a vertical-visibility report — an indefinite ceiling at 400 ft, fog so thick there is no cloud base to see, and it DOES count as a ceiling."
+  },
+  {
+    "id": "q-vfr-weather-minimums-1",
+    "nodeId": "vfr-weather-minimums",
+    "question": "What is the main idea behind \"VFR Weather Minimums\"?",
+    "choices": [
+      "Each airspace class sets minimum visibility and cloud distances for VFR flight. The workhorse number: 3 statute miles vi…",
+      "It only applies to airline pilots, not student pilots.",
+      "It is optional knowledge not tested on the FAA written exam.",
+      "It has been replaced by GPS and is no longer used."
+    ],
+    "correctIndex": 0,
+    "explanation": "Each airspace class sets minimum visibility and cloud distances for VFR flight. The workhorse number: 3 statute miles visibility, staying 500 ft below, 1,000 ft above, and 2,000 ft horizontal from clouds."
+  },
+  {
+    "id": "q-vfr-weather-minimums-2",
+    "nodeId": "vfr-weather-minimums",
+    "question": "In aviation, \"Special VFR\" means:",
+    "choices": [
+      "An ATC authorization to operate in a surface area with 1 SM visibility, clear of clouds, when weather is below basic VFR.",
+      "A type of aircraft engine malfunction",
+      "A runway lighting color code",
+      "An obsolete term no longer used on the radio"
+    ],
+    "correctIndex": 0,
+    "explanation": "An ATC authorization to operate in a surface area with 1 SM visibility, clear of clouds, when weather is below basic VFR."
+  },
+  {
+    "id": "q-vfr-weather-minimums-3",
+    "nodeId": "vfr-weather-minimums",
+    "question": "After mastering \"VFR Weather Minimums\", which advanced detail is most accurate?",
+    "choices": [
+      "The graduate seminar. Special VFR (91.157): within a surface area, you may request SVFR to operate with 1 SM and clear of clouds when the fi…",
+      "Advanced material is identical to the beginner summary.",
+      "There is no regulatory basis for this topic in the U.S.",
+      "Student pilots should ignore this until after the checkride."
+    ],
+    "correctIndex": 0,
+    "explanation": "The graduate seminar. Special VFR (91.157): within a surface area, you may request SVFR to operate with 1 SM and clear of clouds when the field is below basic VFR — ATC must approve it, IFR traffic has priority, and at night it requires an instrument-rated pilot in an IFR-equipped aircraft. Many busy Class B surface areas prohibit SVFR outright (chart note 'NO SVFR')."
+  },
+  {
+    "id": "q-wind-and-runways-1",
+    "nodeId": "wind-and-runways",
+    "question": "What is the main idea behind \"Wind, Runways & Crosswinds\"?",
+    "choices": [
+      "Runways are numbered by their magnetic direction ÷ 10, and you use the one pointing most nearly into the wind. Whatever …",
+      "It only applies to airline pilots, not student pilots.",
+      "It is optional knowledge not tested on the FAA written exam.",
+      "It has been replaced by GPS and is no longer used."
+    ],
+    "correctIndex": 0,
+    "explanation": "Runways are numbered by their magnetic direction ÷ 10, and you use the one pointing most nearly into the wind. Whatever wind is left blowing across the runway is crosswind — the number that cancels student solos."
+  },
+  {
+    "id": "q-wind-and-runways-2",
+    "nodeId": "wind-and-runways",
+    "question": "In aviation, \"Crosswind component\" means:",
+    "choices": [
+      "The portion of the wind blowing perpendicular to the runway — the part you must actively counter.",
+      "A type of aircraft engine malfunction",
+      "A runway lighting color code",
+      "An obsolete term no longer used on the radio"
+    ],
+    "correctIndex": 0,
+    "explanation": "The portion of the wind blowing perpendicular to the runway — the part you must actively counter."
+  },
+  {
+    "id": "q-wind-and-runways-3",
+    "nodeId": "wind-and-runways",
+    "question": "After mastering \"Wind, Runways & Crosswinds\", which advanced detail is most accurate?",
+    "choices": [
+      "Beyond the rules of thumb: the exact math is crosswind = wind speed × sin(angle off runway) and headwind = wind × cos(angle). The 'clock fac…",
+      "Advanced material is identical to the beginner summary.",
+      "There is no regulatory basis for this topic in the U.S.",
+      "Student pilots should ignore this until after the checkride."
+    ],
+    "correctIndex": 0,
+    "explanation": "Beyond the rules of thumb: the exact math is crosswind = wind speed × sin(angle off runway) and headwind = wind × cos(angle). The 'clock face' method approximates the sine in your head: treat the angle off the runway like minutes on a clock — 15° off is a quarter of the wind speed, 30° is half, 45° is three-quarters, 60° or more is all of it. Also learn the gust factor technique: add half the gust increment to your approach speed (wind 15G25: add 5 knots)."
+  },
+  {
+    "id": "q-lat-long-1",
+    "nodeId": "lat-long",
+    "question": "What is the main idea behind \"Latitude, Longitude & Position\"?",
+    "choices": [
+      "The earth is gridded by latitude lines (parallels, measuring north/south) and longitude lines (meridians, measuring east…",
+      "It only applies to airline pilots, not student pilots.",
+      "It is optional knowledge not tested on the FAA written exam.",
+      "It has been replaced by GPS and is no longer used."
+    ],
+    "correctIndex": 0,
+    "explanation": "The earth is gridded by latitude lines (parallels, measuring north/south) and longitude lines (meridians, measuring east/west). Every position in aviation — and every GPS fix — is an address on this grid."
+  },
+  {
+    "id": "q-lat-long-2",
+    "nodeId": "lat-long",
+    "question": "In aviation, \"Meridian\" means:",
+    "choices": [
+      "A line of longitude, running from pole to pole. The prime meridian (0°) passes through Greenwich.",
+      "A type of aircraft engine malfunction",
+      "A runway lighting color code",
+      "An obsolete term no longer used on the radio"
+    ],
+    "correctIndex": 0,
+    "explanation": "A line of longitude, running from pole to pole. The prime meridian (0°) passes through Greenwich."
+  },
+  {
+    "id": "q-lat-long-3",
+    "nodeId": "lat-long",
+    "question": "After mastering \"Latitude, Longitude & Position\", which advanced detail is most accurate?",
+    "choices": [
+      "Converting between norths is checkride bread and butter: 'east is least, west is best' — subtract easterly variation from true heading to ge…",
+      "Advanced material is identical to the beginner summary.",
+      "There is no regulatory basis for this topic in the U.S.",
+      "Student pilots should ignore this until after the checkride."
+    ],
+    "correctIndex": 0,
+    "explanation": "Converting between norths is checkride bread and butter: 'east is least, west is best' — subtract easterly variation from true heading to get magnetic, add westerly. A true course of 090 with 15°E variation flies as a magnetic course of 075. Add compass deviation (the airplane's own magnetic personality, on the compass correction card) to get compass heading: True → Magnetic → Compass, 'True Virgins Make Dull Company' (True ± Variation = Magnetic ± Deviation = Compass)."
+  },
+  {
+    "id": "q-sectional-charts-1",
+    "nodeId": "sectional-charts",
+    "question": "What is the main idea behind \"Sectional Charts: The VFR Map\"?",
+    "choices": [
+      "The sectional is the VFR pilot's chart: 1:500,000 scale, showing terrain, obstacles, airports, airspace, and navaids. Le…",
+      "It only applies to airline pilots, not student pilots.",
+      "It is optional knowledge not tested on the FAA written exam.",
+      "It has been replaced by GPS and is no longer used."
+    ],
+    "correctIndex": 0,
+    "explanation": "The sectional is the VFR pilot's chart: 1:500,000 scale, showing terrain, obstacles, airports, airspace, and navaids. Learn its legend and the whole national airspace system becomes readable."
+  },
+  {
+    "id": "q-sectional-charts-2",
+    "nodeId": "sectional-charts",
+    "question": "In aviation, \"MEF\" means:",
+    "choices": [
+      "Maximum Elevation Figure — the big blue number per grid box giving an altitude that clears all terrain and obstacles in it.",
+      "A type of aircraft engine malfunction",
+      "A runway lighting color code",
+      "An obsolete term no longer used on the radio"
+    ],
+    "correctIndex": 0,
+    "explanation": "Maximum Elevation Figure — the big blue number per grid box giving an altitude that clears all terrain and obstacles in it."
+  },
+  {
+    "id": "q-sectional-charts-3",
+    "nodeId": "sectional-charts",
+    "question": "After mastering \"Sectional Charts: The VFR Map\", which advanced detail is most accurate?",
+    "choices": [
+      "Legend fluency, level two. Airport name in CAPS-with-star ('★') marks a part-time tower; 'C' in a circle after a frequency marks CTAF; 'RP' …",
+      "Advanced material is identical to the beginner summary.",
+      "There is no regulatory basis for this topic in the U.S.",
+      "Student pilots should ignore this until after the checkride."
+    ],
+    "correctIndex": 0,
+    "explanation": "Legend fluency, level two. Airport name in CAPS-with-star ('★') marks a part-time tower; 'C' in a circle after a frequency marks CTAF; 'RP' beside a runway number warns of a right-hand traffic pattern (e.g. 'RP 22'); asterisked elevation means unverified. Victor airways print as light blue lines with V-numbers; VORs sit in compass roses with a frequency box (a shadowed box means the frequency also carries voice/HIWAS history — modern charts simplified this). Parachute-jumping areas get a tiny parachute; glider and ultralight sites similar glyphs."
+  },
+  {
+    "id": "q-pilotage-dead-reckoning-1",
+    "nodeId": "pilotage-dead-reckoning",
+    "question": "What is the main idea behind \"Pilotage & Dead Reckoning\"?",
+    "choices": [
+      "Pilotage is navigating by looking outside and matching landmarks to the chart. Dead reckoning is predicting position fro…",
+      "It only applies to airline pilots, not student pilots.",
+      "It is optional knowledge not tested on the FAA written exam.",
+      "It has been replaced by GPS and is no longer used."
+    ],
+    "correctIndex": 0,
+    "explanation": "Pilotage is navigating by looking outside and matching landmarks to the chart. Dead reckoning is predicting position from heading, speed, and time. Together they are the foundation the GPS merely decorates."
+  },
+  {
+    "id": "q-pilotage-dead-reckoning-2",
+    "nodeId": "pilotage-dead-reckoning",
+    "question": "In aviation, \"Checkpoint\" means:",
+    "choices": [
+      "A pre-selected, unmistakable landmark used to confirm position along a route.",
+      "A type of aircraft engine malfunction",
+      "A runway lighting color code",
+      "An obsolete term no longer used on the radio"
+    ],
+    "correctIndex": 0,
+    "explanation": "A pre-selected, unmistakable landmark used to confirm position along a route."
+  },
+  {
+    "id": "q-pilotage-dead-reckoning-3",
+    "nodeId": "pilotage-dead-reckoning",
+    "question": "After mastering \"Pilotage & Dead Reckoning\", which advanced detail is most accurate?",
+    "choices": [
+      "The graduate toolkit. The wind triangle underlies every navlog: wind correction angle ≈ (crosswind component ÷ true airspeed) × 60. An E6B (…",
+      "Advanced material is identical to the beginner summary.",
+      "There is no regulatory basis for this topic in the U.S.",
+      "Student pilots should ignore this until after the checkride."
+    ],
+    "correctIndex": 0,
+    "explanation": "The graduate toolkit. The wind triangle underlies every navlog: wind correction angle ≈ (crosswind component ÷ true airspeed) × 60. An E6B (circular slide rule or app) solves it exactly, plus time-speed-distance and fuel. The 1-in-60 rule converts error to correction: 1° of track error puts you 1 NM off after 60 NM; if you are 3 NM off after 30 NM, you have 6° of drift — turn 6° to parallel course, more to converge."
+  },
+  {
+    "id": "q-vor-ndb-navigation-1",
+    "nodeId": "vor-ndb-navigation",
+    "question": "What is the main idea behind \"VOR & NDB: Ground-Based Navigation\"?",
+    "choices": [
+      "VOR stations broadcast 360 radials you can track like spokes of a wheel; the cockpit needle shows deviation from your ch…",
+      "It only applies to airline pilots, not student pilots.",
+      "It is optional knowledge not tested on the FAA written exam.",
+      "It has been replaced by GPS and is no longer used."
+    ],
+    "correctIndex": 0,
+    "explanation": "VOR stations broadcast 360 radials you can track like spokes of a wheel; the cockpit needle shows deviation from your chosen radial. NDBs are their simpler, older cousins — a beacon your needle simply points at."
+  },
+  {
+    "id": "q-vor-ndb-navigation-2",
+    "nodeId": "vor-ndb-navigation",
+    "question": "In aviation, \"Radial\" means:",
+    "choices": [
+      "One of 360 magnetic courses radiating FROM a VOR station, like spokes from a hub.",
+      "A type of aircraft engine malfunction",
+      "A runway lighting color code",
+      "An obsolete term no longer used on the radio"
+    ],
+    "correctIndex": 0,
+    "explanation": "One of 360 magnetic courses radiating FROM a VOR station, like spokes from a hub."
+  },
+  {
+    "id": "q-vor-ndb-navigation-3",
+    "nodeId": "vor-ndb-navigation",
+    "question": "After mastering \"VOR & NDB: Ground-Based Navigation\", which advanced detail is most accurate?",
+    "choices": [
+      "Instrument-rating preview and gotchas. VOR service volumes matter: a low VOR guarantees 40 NM at ~1,000–18,000 ft (terminal VORs less); beyo…",
+      "Advanced material is identical to the beginner summary.",
+      "There is no regulatory basis for this topic in the U.S.",
+      "Student pilots should ignore this until after the checkride."
+    ],
+    "correctIndex": 0,
+    "explanation": "Instrument-rating preview and gotchas. VOR service volumes matter: a low VOR guarantees 40 NM at ~1,000–18,000 ft (terminal VORs less); beyond that, signals are unreliable — line of sight, like all VHF. Accuracy checks are a real regulation (91.171, for IFR): ±4° on a ground checkpoint, ±6° airborne, or ±4° between dual receivers. Reverse sensing — the needle working backwards because you selected the reciprocal course — is the classic trap; modern HSIs make it nearly impossible, round-dial CDIs make it a rite of passage."
+  },
+  {
+    "id": "q-gps-navigation-1",
+    "nodeId": "gps-navigation",
+    "question": "What is the main idea behind \"GPS & Satellite Navigation\"?",
+    "choices": [
+      "GPS receivers triangulate position from satellite timing signals, giving position, groundspeed, and track anywhere on ea…",
+      "It only applies to airline pilots, not student pilots.",
+      "It is optional knowledge not tested on the FAA written exam.",
+      "It has been replaced by GPS and is no longer used."
+    ],
+    "correctIndex": 0,
+    "explanation": "GPS receivers triangulate position from satellite timing signals, giving position, groundspeed, and track anywhere on earth. It has revolutionized navigation — and created a new failure mode: blind trust."
+  },
+  {
+    "id": "q-gps-navigation-2",
+    "nodeId": "gps-navigation",
+    "question": "In aviation, \"RAIM\" means:",
+    "choices": [
+      "Receiver Autonomous Integrity Monitoring — the GPS receiver's self-check that detects a faulty satellite signal.",
+      "A type of aircraft engine malfunction",
+      "A runway lighting color code",
+      "An obsolete term no longer used on the radio"
+    ],
+    "correctIndex": 0,
+    "explanation": "Receiver Autonomous Integrity Monitoring — the GPS receiver's self-check that detects a faulty satellite signal."
+  },
+  {
+    "id": "q-gps-navigation-3",
+    "nodeId": "gps-navigation",
+    "question": "After mastering \"GPS & Satellite Navigation\", which advanced detail is most accurate?",
+    "choices": [
+      "The deeper stack. GPS satellites orbit at ~10,900 NM (MEO), each carrying atomic clocks; your fix's weak axis is vertical, so GPS altitude c…",
+      "Advanced material is identical to the beginner summary.",
+      "There is no regulatory basis for this topic in the U.S.",
+      "Student pilots should ignore this until after the checkride."
+    ],
+    "correctIndex": 0,
+    "explanation": "The deeper stack. GPS satellites orbit at ~10,900 NM (MEO), each carrying atomic clocks; your fix's weak axis is vertical, so GPS altitude can differ from barometric by tens of feet legitimately (and GPS altitude is geometric — never substitute it for the altimeter). Handhelds and tablets are legal ONLY as situational awareness for VFR: certified IFR navigation requires a TSO'd installed receiver with current database. Database currency runs on the same 28-day AIRAC cycle the whole world's nav data uses."
+  },
+  {
+    "id": "q-right-of-way-1",
+    "nodeId": "right-of-way",
+    "question": "What is the main idea behind \"Right-of-Way Rules\"?",
+    "choices": [
+      "When aircraft converge, fixed rules decide who yields: distress trumps everything, the less-maneuverable aircraft has pr…",
+      "It only applies to airline pilots, not student pilots.",
+      "It is optional knowledge not tested on the FAA written exam.",
+      "It has been replaced by GPS and is no longer used."
+    ],
+    "correctIndex": 0,
+    "explanation": "When aircraft converge, fixed rules decide who yields: distress trumps everything, the less-maneuverable aircraft has priority, head-on traffic breaks right, and the lower aircraft on final owns the runway."
+  },
+  {
+    "id": "q-right-of-way-2",
+    "nodeId": "right-of-way",
+    "question": "In aviation, \"Converging\" means:",
+    "choices": [
+      "Two aircraft on paths that will intersect — the one on the right has priority.",
+      "A type of aircraft engine malfunction",
+      "A runway lighting color code",
+      "An obsolete term no longer used on the radio"
+    ],
+    "correctIndex": 0,
+    "explanation": "Two aircraft on paths that will intersect — the one on the right has priority."
+  },
+  {
+    "id": "q-right-of-way-3",
+    "nodeId": "right-of-way",
+    "question": "After mastering \"Right-of-Way Rules\", which advanced detail is most accurate?",
+    "choices": [
+      "The layers exams love. 91.113 gives an aircraft in distress right of way over ALL other air traffic — and 91.3 lets that pilot break any rul…",
+      "Advanced material is identical to the beginner summary.",
+      "There is no regulatory basis for this topic in the U.S.",
+      "Student pilots should ignore this until after the checkride."
+    ],
+    "correctIndex": 0,
+    "explanation": "The layers exams love. 91.113 gives an aircraft in distress right of way over ALL other air traffic — and 91.3 lets that pilot break any rule to the extent required. On converging courses of DIFFERENT categories, category beats geometry: a glider converging from your left still has priority over your airplane. Water operations get their own section (91.115), same right-is-right logic plus keep-clear obligations for vessels."
+  },
+  {
+    "id": "q-imsafe-checklist-1",
+    "nodeId": "imsafe-checklist",
+    "question": "What is the main idea behind \"IMSAFE: The Pilot Preflight\"?",
+    "choices": [
+      "Airplanes get a preflight inspection; so must pilots. IMSAFE checks Illness, Medication, Stress, Alcohol, Fatigue, and E…",
+      "It only applies to airline pilots, not student pilots.",
+      "It is optional knowledge not tested on the FAA written exam.",
+      "It has been replaced by GPS and is no longer used."
+    ],
+    "correctIndex": 0,
+    "explanation": "Airplanes get a preflight inspection; so must pilots. IMSAFE checks Illness, Medication, Stress, Alcohol, Fatigue, and Emotion before every flight — because the most failure-prone component in aviation is human."
+  },
+  {
+    "id": "q-imsafe-checklist-2",
+    "nodeId": "imsafe-checklist",
+    "question": "In aviation, \"Bottle-to-throttle\" means:",
+    "choices": [
+      "Shorthand for the minimum 8 hours required between consuming alcohol and flying (91.17).",
+      "A type of aircraft engine malfunction",
+      "A runway lighting color code",
+      "An obsolete term no longer used on the radio"
+    ],
+    "correctIndex": 0,
+    "explanation": "Shorthand for the minimum 8 hours required between consuming alcohol and flying (91.17)."
+  },
+  {
+    "id": "q-imsafe-checklist-3",
+    "nodeId": "imsafe-checklist",
+    "question": "After mastering \"IMSAFE: The Pilot Preflight\", which advanced detail is most accurate?",
+    "choices": [
+      "The regulatory scaffolding under the mnemonic. 61.53 prohibits acting as a required crewmember while any known medical condition (or its tre…",
+      "Advanced material is identical to the beginner summary.",
+      "There is no regulatory basis for this topic in the U.S.",
+      "Student pilots should ignore this until after the checkride."
+    ],
+    "correctIndex": 0,
+    "explanation": "The regulatory scaffolding under the mnemonic. 61.53 prohibits acting as a required crewmember while any known medical condition (or its treatment) would prevent meeting medical-certificate standards — it applies between medical exams, making YOU the continuous medical certifier. 91.17's alcohol rule has a fourth prong people forget: no carriage of an obviously intoxicated passenger. The 0.04% limit comes with a practical warning — metabolism averages ~0.015%/hour, so 'legal' after a heavy night is arithmetic fantasy."
+  },
+  {
+    "id": "q-traffic-pattern-1",
+    "nodeId": "traffic-pattern",
+    "question": "What is the main idea behind \"The Traffic Pattern\"?",
+    "choices": [
+      "Airports organize arrivals and departures into a rectangular circuit: upwind, crosswind, downwind, base, and final. Stan…",
+      "It only applies to airline pilots, not student pilots.",
+      "It is optional knowledge not tested on the FAA written exam.",
+      "It has been replaced by GPS and is no longer used."
+    ],
+    "correctIndex": 0,
+    "explanation": "Airports organize arrivals and departures into a rectangular circuit: upwind, crosswind, downwind, base, and final. Standard patterns turn LEFT, fly about 1,000 ft above the field, and make every airplane predictable."
+  },
+  {
+    "id": "q-traffic-pattern-2",
+    "nodeId": "traffic-pattern",
+    "question": "In aviation, \"Abeam\" means:",
+    "choices": [
+      "Directly off the side of — 'abeam the numbers' means beside the runway threshold, the downwind trigger point.",
+      "A type of aircraft engine malfunction",
+      "A runway lighting color code",
+      "An obsolete term no longer used on the radio"
+    ],
+    "correctIndex": 0,
+    "explanation": "Directly off the side of — 'abeam the numbers' means beside the runway threshold, the downwind trigger point."
+  },
+  {
+    "id": "q-traffic-pattern-3",
+    "nodeId": "traffic-pattern",
+    "question": "After mastering \"The Traffic Pattern\", which advanced detail is most accurate?",
+    "choices": [
+      "The professional-grade details. The base-to-final turn is the pattern's famous killer: overshoot the centerline, and the temptation is to st…",
+      "Advanced material is identical to the beginner summary.",
+      "There is no regulatory basis for this topic in the U.S.",
+      "Student pilots should ignore this until after the checkride."
+    ],
+    "correctIndex": 0,
+    "explanation": "The professional-grade details. The base-to-final turn is the pattern's famous killer: overshoot the centerline, and the temptation is to steepen the bank and 'help' with inside rudder — the skidding turn that becomes a low-altitude stall/spin with no recovery room. The disciplined answer: never exceed ~30° bank in the pattern; if overshooting, go around. Stabilized-approach doctrine: by 300–500 ft AGL you are on speed (1.3 × Vso), on glidepath, configured, or you go around — go-arounds are a normal maneuver, not an apology."
+  },
+  {
+    "id": "q-checklist-discipline-1",
+    "nodeId": "checklist-discipline",
+    "question": "What is the main idea behind \"Checklists & Flows\"?",
+    "choices": [
+      "Aviation's core safety invention is embarrassingly simple: written checklists, actually used. They exist because memory …",
+      "It only applies to airline pilots, not student pilots.",
+      "It is optional knowledge not tested on the FAA written exam.",
+      "It has been replaced by GPS and is no longer used."
+    ],
+    "correctIndex": 0,
+    "explanation": "Aviation's core safety invention is embarrassingly simple: written checklists, actually used. They exist because memory fails predictably — especially under stress, interruption, and routine."
+  },
+  {
+    "id": "q-checklist-discipline-2",
+    "nodeId": "checklist-discipline",
+    "question": "In aviation, \"Run-up\" means:",
+    "choices": [
+      "The pre-takeoff engine check: magnetos, carb heat, gauges — performed at the hold-short area.",
+      "A type of aircraft engine malfunction",
+      "A runway lighting color code",
+      "An obsolete term no longer used on the radio"
+    ],
+    "correctIndex": 0,
+    "explanation": "The pre-takeoff engine check: magnetos, carb heat, gauges — performed at the hold-short area."
+  },
+  {
+    "id": "q-checklist-discipline-3",
+    "nodeId": "checklist-discipline",
+    "question": "After mastering \"Checklists & Flows\", which advanced detail is most accurate?",
+    "choices": [
+      "Deeper craft. Emergency checklists split into memory items (bold-face: engine failure's 'best glide, field, flow') executed immediately, and…",
+      "Advanced material is identical to the beginner summary.",
+      "There is no regulatory basis for this topic in the U.S.",
+      "Student pilots should ignore this until after the checkride."
+    ],
+    "correctIndex": 0,
+    "explanation": "Deeper craft. Emergency checklists split into memory items (bold-face: engine failure's 'best glide, field, flow') executed immediately, and reference items read once the airplane is stable — knowing which is which is checkride material. The killer items concept: certain omissions are reliably fatal (controls free and correct, trim set, fuel selector, flaps, door/canopy), which is why many pilots run a short 'lineup check' mnemonic (lights-camera-action, or CIGAR-TIP variants) even after the full checklist."
+  },
+  {
+    "id": "q-aviate-navigate-communicate-1",
+    "nodeId": "aviate-navigate-communicate",
+    "question": "What is the main idea behind \"Aviate, Navigate, Communicate\"?",
+    "choices": [
+      "Aviation's priority hierarchy for every situation, especially emergencies: FIRST fly the airplane, THEN figure out where…",
+      "It only applies to airline pilots, not student pilots.",
+      "It is optional knowledge not tested on the FAA written exam.",
+      "It has been replaced by GPS and is no longer used."
+    ],
+    "correctIndex": 0,
+    "explanation": "Aviation's priority hierarchy for every situation, especially emergencies: FIRST fly the airplane, THEN figure out where you are going, and only THEN talk on the radio. Order is everything."
+  },
+  {
+    "id": "q-aviate-navigate-communicate-2",
+    "nodeId": "aviate-navigate-communicate",
+    "question": "In aviation, \"Best glide speed\" means:",
+    "choices": [
+      "The airspeed yielding maximum distance per foot of altitude lost — the first number flown after an engine failure.",
+      "A type of aircraft engine malfunction",
+      "A runway lighting color code",
+      "An obsolete term no longer used on the radio"
+    ],
+    "correctIndex": 0,
+    "explanation": "The airspeed yielding maximum distance per foot of altitude lost — the first number flown after an engine failure."
+  },
+  {
+    "id": "q-aviate-navigate-communicate-3",
+    "nodeId": "aviate-navigate-communicate",
+    "question": "After mastering \"Aviate, Navigate, Communicate\", which advanced detail is most accurate?",
+    "choices": [
+      "The doctrine's fine print. In a real emergency, 91.3 makes the PIC's authority total: deviate from any rule to the extent required, with onl…",
+      "Advanced material is identical to the beginner summary.",
+      "There is no regulatory basis for this topic in the U.S.",
+      "Student pilots should ignore this until after the checkride."
+    ],
+    "correctIndex": 0,
+    "explanation": "The doctrine's fine print. In a real emergency, 91.3 makes the PIC's authority total: deviate from any rule to the extent required, with only a REQUESTED written report afterward (and accepting priority handling never obligates paperwork by itself — 91.3(c) asks for a report only 'upon request'). Declaring costs nothing; hesitating to say MAYDAY has cost everything. PAN-PAN covers urgency short of distress."
+  }
+]
