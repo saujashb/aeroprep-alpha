@@ -12,6 +12,12 @@ dist
 dist-ssr
 *.local
 
+# Local scratch / scripted-push artifacts
+.push-batches/
+.push-batches-final/
+.push-batches-remaining/
+.push-tmp/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

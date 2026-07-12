@@ -252,6 +252,8 @@ function decodeOne(raw: string, inRemarks: boolean): DecodedToken {
     };
   }
   if (/^\d{4}$/.test(raw) && parseInt(raw, 10) <= 9999) {
+    // International-style meters visibility (e.g. 9999). Only match after wind
+    // groups have been ruled out above.
     const meters = parseInt(raw, 10);
     return {
       raw,
@@ -342,6 +344,7 @@ export function decodeMetar(input: string): DecodedToken[] {
   if (!cleaned) return [];
   const rawTokens = cleaned.split(" ");
 
+  // Re-join fractional visibility like "1 1/2SM" into a single token.
   const tokens: string[] = [];
   for (let i = 0; i < rawTokens.length; i++) {
     const cur = rawTokens[i];
@@ -359,6 +362,8 @@ export function decodeMetar(input: string): DecodedToken[] {
   return tokens.map((tok) => {
     const decoded = decodeOne(tok, inRemarks);
     if (decoded.kind === "remarks") inRemarks = true;
+    // The very first plain 4-letter group is the station; later ones would be
+    // misparsed weather groups, so only accept a station once.
     if (decoded.kind === "station") {
       if (stationSeen) {
         return {
